@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://emergencyfood.dev/sitemap.xml
