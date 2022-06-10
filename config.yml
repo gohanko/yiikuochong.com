@@ -3,20 +3,15 @@ languageCode: 'en-us'
 title: 'EmergencyFood'
 theme: 'PaperMod'
 
+googleAnalytics: G-LRW09N1G2D
+enableRobotsTxt: true
+
 permalinks:
   posts: "/:filename"
 
-menu:
-  main:
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 30
-
+minify:
+    disableXML: true
+    minifyOutput: true
 
 params:
   env: production
@@ -62,3 +57,14 @@ params:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 30
