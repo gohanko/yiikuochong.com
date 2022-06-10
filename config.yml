@@ -18,7 +18,7 @@ params:
   title: "EmergencyFood"
   description: "My thoughts on web development, cybersecurity and linux."
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
-  author: EmergencyFood
+  author: Yu Guozhong (俞国忠)
   DateFormat: "January 2, 2006"
   defaultTheme: dark
 
