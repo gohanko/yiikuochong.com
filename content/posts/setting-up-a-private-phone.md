@@ -1,6 +1,6 @@
 ---
 title: "Setting up a private phone."
-date: 2022-06-10T21:23:12Z
+date: 2022-06-10
 draft: false
 tags: ['android', 'microg', 'fdroid', 'privacy', 'security']
 ---
