@@ -21,8 +21,8 @@ menu:
 params:
   env: production
   title: "EmergencyFood"
-  description: ""
-  keywords: []
+  description: "My thoughts on web development, cybersecurity and linux."
+  keywords: ['web development', 'cybersecurity', 'software development', 'linux']
   author: EmergencyFood
   DateFormat: "January 2, 2006"
   defaultTheme: dark
@@ -45,8 +45,8 @@ params:
     disableFingerprinting: true
 
   homeInfoParams:
-    Title: "Hi there!"
-    Content: "Placeholder!"
+    Title: "Hi there! I'm just a random traveller on the internet."
+    Content: "Thoughts on software development, cybersecurity and privacy."
 
   socialIcons:
     - name: github
