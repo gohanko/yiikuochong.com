@@ -2,36 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://emergencyfood.dev/tags/android/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
-    <loc>http://emergencyfood.dev/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
-    <loc>http://emergencyfood.dev/tags/fdroid/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
-    <loc>http://emergencyfood.dev/tags/microg/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
-    <loc>http://emergencyfood.dev/posts/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
-    <loc>http://emergencyfood.dev/tags/privacy/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
-    <loc>http://emergencyfood.dev/tags/security/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
-    <loc>http://emergencyfood.dev/setting-up-a-private-phone/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
-    <loc>http://emergencyfood.dev/tags/</loc>
-    <lastmod>2022-03-30T21:23:12+00:00</lastmod>
-  </url><url>
     <loc>http://emergencyfood.dev/about/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://emergencyfood.dev/categories/</loc>
+  </url><url>
+    <loc>http://emergencyfood.dev/</loc>
+  </url><url>
+    <loc>http://emergencyfood.dev/tags/</loc>
   </url>
 </urlset>
