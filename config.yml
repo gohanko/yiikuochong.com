@@ -1,9 +1,9 @@
-baseURL: 'http://emergencyfood.dev'
+baseURL: 'http://rabbitisland.dev'
 languageCode: 'en-us'
-title: 'EmergencyFood'
+title: 'Rabbit Island'
 theme: 'PaperMod'
 
-googleAnalytics: G-LRW09N1G2D
+googleAnalytics: G-DKYY4HJSRB
 enableRobotsTxt: true
 
 permalinks:
@@ -16,7 +16,7 @@ minify:
 params:
   env: production
   title: "EmergencyFood"
-  description: "My thoughts on web development, cybersecurity and linux."
+  description: "thoughts on web development, cybersecurity and life"
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
   author: Yu Guozhong (俞国忠)
   DateFormat: "January 2, 2006"
