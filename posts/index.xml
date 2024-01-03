@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on LazyCat Blog</title>
-    <link>https://gohanko.github.io/rab.dev/posts/</link>
+    <link>https://gohanko.github.io/lazycat/posts/</link>
     <description>Recent content in Posts on LazyCat Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gohanko.github.io/rab.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gohanko.github.io/lazycat/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up a private phone.</title>
-      <link>https://gohanko.github.io/rab.dev/setting-up-a-private-phone/</link>
+      <link>https://gohanko.github.io/lazycat/setting-up-a-private-phone/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://gohanko.github.io/rab.dev/setting-up-a-private-phone/</guid>
+      <guid>https://gohanko.github.io/lazycat/setting-up-a-private-phone/</guid>
       <description>A smartphone is arguably the most important device to keep private, we carry it all the time while it tracks our location, elevation, access the microphone and more. So how would someone take back control of their phone? It&amp;rsquo;s a common question for people dipping their feet into the privacy world.
 In this article, we shall inspect methods of privatizing and limiting data collection as much as possible from your mobile devices.</description>
     </item>
