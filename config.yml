@@ -1,6 +1,6 @@
 baseURL: 'https://gohanko.github.io/lazycat/'
 languageCode: 'en-us'
-title: 'LazyCat Engineering'
+title: 'lazycat@blog'
 theme: 'PaperMod'
 
 googleAnalytics: G-DKYY4HJSRB
@@ -15,10 +15,10 @@ minify:
 
 params:
   env: production
-  title: "LazyCat Engineering"
+  title: "lazycat@blog"
   description: "thoughts on web development, cybersecurity and life"
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
-  author: Yu Guozhong (俞国忠)
+  author: Yii Kuo Chong (俞国忠)
   DateFormat: "January 2, 2006"
   defaultTheme: auto
 
@@ -40,9 +40,9 @@ params:
     disableFingerprinting: true
 
   homeInfoParams:
-    Title: "<code>[~]$ whoami</code>"
+    Title: "[~]$ whoami"
     Content: >
-      Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/about)
+      I'm Yii Kuo Chong, call me Brandon. I'm a Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/about)
 
       - [RSS Feed](/index.xml) - Subscribe to this blog using RSS aggregators.
 
