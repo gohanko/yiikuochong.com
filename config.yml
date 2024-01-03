@@ -20,7 +20,7 @@ params:
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
   author: Yu Guozhong (俞国忠)
   DateFormat: "January 2, 2006"
-  defaultTheme: dark
+  defaultTheme: auto
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -58,17 +58,9 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-languages:
-  en:
-    languageName: "English"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - identifier: About
-          name: About
-          url: /about/
-          weight: 30
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 30
