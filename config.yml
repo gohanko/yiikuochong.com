@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production
-  title: "LazyCat Blog"
+  title: "LazyCat Engineering"
   description: "thoughts on web development, cybersecurity and life"
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
   author: Yu Guozhong (俞国忠)
@@ -40,12 +40,12 @@ params:
     disableFingerprinting: true
 
   homeInfoParams:
-    Title: "[~]$ whoami"
+    Title: "<code>[~]$ whoami</code>"
     Content: >
       Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/about)
 
       - [RSS Feed](/index.xml) - Subscribe to this blog using RSS aggregators.
-      
+
       - Reach out to me at byu1628[at]proton[dot]me (or any of the channels listed) if you have any questions/suggestions. 
 
   socialIcons:
