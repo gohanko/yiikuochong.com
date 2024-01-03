@@ -58,9 +58,17 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-menu:
-  main:
-    - identifier: About
-      name: About
-      url: /about/
-      weight: 30
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - identifier: About
+          name: About
+          url: /about/
+          weight: 30
