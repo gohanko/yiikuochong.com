@@ -1,6 +1,6 @@
 baseURL: 'https://gohanko.github.io/rab.dev/'
 languageCode: 'en-us'
-title: 'Rabbit Island'
+title: 'LazyCat Blog'
 theme: 'PaperMod'
 
 googleAnalytics: G-DKYY4HJSRB
@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production
-  title: "EmergencyFood"
+  title: "LazyCat Blog"
   description: "thoughts on web development, cybersecurity and life"
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
   author: Yu Guozhong (俞国忠)
@@ -40,8 +40,8 @@ params:
     disableFingerprinting: true
 
   homeInfoParams:
-    Title: "Hi there! I'm just a random traveller on the internet."
-    Content: "Thoughts on software development, cybersecurity and privacy."
+    Title: "[~]$ whoami"
+    Content: ""
 
   socialIcons:
     - name: github
@@ -60,11 +60,7 @@ params:
 
 menu:
   main:
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: about
-      name: about
+    - identifier: About
+      name: About
       url: /about/
       weight: 30
