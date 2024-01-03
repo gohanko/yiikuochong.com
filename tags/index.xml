@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Rabbit Island</title>
-    <link>http://rabbitisland.dev/tags/</link>
+    <link>https://gohanko.github.io/rabbitisland.dev/tags/</link>
     <description>Recent content in Tags on Rabbit Island</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://rabbitisland.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gohanko.github.io/rabbitisland.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>android</title>
-      <link>http://rabbitisland.dev/tags/android/</link>
+      <link>https://gohanko.github.io/rabbitisland.dev/tags/android/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://rabbitisland.dev/tags/android/</guid>
+      <guid>https://gohanko.github.io/rabbitisland.dev/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fdroid</title>
-      <link>http://rabbitisland.dev/tags/fdroid/</link>
+      <link>https://gohanko.github.io/rabbitisland.dev/tags/fdroid/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://rabbitisland.dev/tags/fdroid/</guid>
+      <guid>https://gohanko.github.io/rabbitisland.dev/tags/fdroid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>microg</title>
-      <link>http://rabbitisland.dev/tags/microg/</link>
+      <link>https://gohanko.github.io/rabbitisland.dev/tags/microg/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://rabbitisland.dev/tags/microg/</guid>
+      <guid>https://gohanko.github.io/rabbitisland.dev/tags/microg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>http://rabbitisland.dev/tags/privacy/</link>
+      <link>https://gohanko.github.io/rabbitisland.dev/tags/privacy/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://rabbitisland.dev/tags/privacy/</guid>
+      <guid>https://gohanko.github.io/rabbitisland.dev/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>http://rabbitisland.dev/tags/security/</link>
+      <link>https://gohanko.github.io/rabbitisland.dev/tags/security/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://rabbitisland.dev/tags/security/</guid>
+      <guid>https://gohanko.github.io/rabbitisland.dev/tags/security/</guid>
       <description></description>
     </item>
     
