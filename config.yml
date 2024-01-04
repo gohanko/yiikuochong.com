@@ -15,10 +15,10 @@ minify:
 
 params:
   env: production
-  title: "brandon@lazycat"
+  title: "Lazycat Blog"
   description: "thoughts on web development, cybersecurity and life"
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
-  author: Yii Kuo Chong (Brandon)
+  author: Brandon Yii
   DateFormat: "January 2, 2006"
   defaultTheme: auto
 
@@ -46,7 +46,7 @@ params:
 
       - [RSS Feed](/index.xml) - Subscribe to this blog using RSS aggregators.
 
-      - Reach out to me at byu1628[at]proton[dot]me (or any of the channels listed) if you have any questions/suggestions. 
+      - Reach out to me at byu1628[at]proton[dot]me (or any of the channels listed) if you have any questions/suggestions! 
 
   socialIcons:
     - name: github
