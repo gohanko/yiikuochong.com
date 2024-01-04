@@ -42,7 +42,7 @@ params:
   homeInfoParams:
     Title: "[~]$ whoami"
     Content: >
-      A Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/about)
+      A Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/lazycat/about)
 
       - [RSS Feed](/lazycat/index.xml) - Subscribe to this blog using RSS aggregators.
 
