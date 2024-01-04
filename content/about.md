@@ -2,7 +2,7 @@
 title: "About Me"
 date: 2022-06-10
 draft: false
-tags: ['android', 'microg', 'fdroid', 'privacy', 'security']
+tags: ['hello', 'world']
 ---
 
 My name is Yii Kuo Chong, people call me Brandon. I write code for a living. Sometimes at full time positions, sometimes I take on projects. A fortune teller in Taipei once told me that it's important to take the first steps than to be afraid of failure. That's what I'm doing.
