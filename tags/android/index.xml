@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>brandon@owlscience</title>
-    <link>https://gohanko.github.io/owlscience.co/</link>
-    <description>Recent content on brandon@owlscience</description>
+    <title>android on brandon@owlscience</title>
+    <link>https://gohanko.github.io/owlscience.co/tags/android/</link>
+    <description>Recent content in android on brandon@owlscience</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gohanko.github.io/owlscience.co/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>https://gohanko.github.io/owlscience.co/about/</link>
-      <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/owlscience.co/about/</guid>
-      <description>Hi, I&amp;rsquo;m Brandon. I write code for a living. Sometimes for companies, sometimes for myself.
-This is a personal blog which I use to document my learning journey and share my work with the world.
-You can learn more about my professional experience on my LinkedIn profile.
-If anyone needs a frontend/backend web developer, I&amp;rsquo;m always looking for opportunities to collaborate, and work on new projects. Please do not hesitate to email me at byu1628[at]proton[dot]me.</description>
-    </item>
+    <atom:link href="https://gohanko.github.io/owlscience.co/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dissecting Hi-Hive Community: Part I</title>
       <link>https://gohanko.github.io/owlscience.co/dissecting-hi-hive-community-part-1/</link>
