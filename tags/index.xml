@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on brandon@lazycat</title>
-    <link>https://gohanko.github.io/lazycat/tags/</link>
-    <description>Recent content in Tags on brandon@lazycat</description>
+    <title>Tags on brandon@owlscience</title>
+    <link>https://gohanko.github.io/owlscience.co/tags/</link>
+    <description>Recent content in Tags on brandon@owlscience</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gohanko.github.io/lazycat/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gohanko.github.io/owlscience.co/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hello</title>
-      <link>https://gohanko.github.io/lazycat/tags/hello/</link>
+      <link>https://gohanko.github.io/owlscience.co/tags/hello/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/lazycat/tags/hello/</guid>
+      <guid>https://gohanko.github.io/owlscience.co/tags/hello/</guid>
       <description></description>
     </item>
     <item>
       <title>world</title>
-      <link>https://gohanko.github.io/lazycat/tags/world/</link>
+      <link>https://gohanko.github.io/owlscience.co/tags/world/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/lazycat/tags/world/</guid>
+      <guid>https://gohanko.github.io/owlscience.co/tags/world/</guid>
       <description></description>
     </item>
   </channel>
