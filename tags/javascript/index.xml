@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>javascript on brandon@owlscience</title>
-    <link>https://gohanko.github.io/owlscience.co/tags/javascript/</link>
-    <description>Recent content in javascript on brandon@owlscience</description>
+    <title>javascript on brandon@codeowl</title>
+    <link>https://gohanko.github.io/codeowl.space/tags/javascript/</link>
+    <description>Recent content in javascript on brandon@codeowl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gohanko.github.io/owlscience.co/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gohanko.github.io/codeowl.space/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dissecting Hi-Hive Community: Part I</title>
-      <link>https://gohanko.github.io/owlscience.co/dissecting-hi-hive-community-part-1/</link>
+      <link>https://gohanko.github.io/codeowl.space/dissecting-hi-hive-community-part-1/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/owlscience.co/dissecting-hi-hive-community-part-1/</guid>
+      <guid>https://gohanko.github.io/codeowl.space/dissecting-hi-hive-community-part-1/</guid>
       <description>During COVID-19, my university debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
 Like the previous paper based attendance solution, it doesn&amp;rsquo;t actually stop students from skipping class. Nontheless, that&amp;rsquo;s not the issue we&amp;rsquo;ll be discussing today.
 After using the application for a few years, I noticed that the original application is too bloated with unnecessary features, it&amp;rsquo;s too slow, and important items are buried in unending levels of menus.</description>
