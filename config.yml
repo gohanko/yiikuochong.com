@@ -1,6 +1,6 @@
-baseURL: 'https://gohanko.github.io/owlscience.co/'
+baseURL: 'https://gohanko.github.io/codeowl.space/'
 languageCode: 'en-us'
-title: 'brandon@owlscience'
+title: 'brandon@codeowl'
 theme: 'PaperMod'
 
 googleAnalytics: G-DKYY4HJSRB
@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production
-  title: "OwlScience Blog"
+  title: "CodeOwl Blog"
   description: "thoughts on web development, cybersecurity and life"
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
   author: Yii Kuo Chong
@@ -42,9 +42,9 @@ params:
   homeInfoParams:
     Title: "[~]$ whoami"
     Content: >
-      A Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/owlscience.co/about)
+      A Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/codeowl.space/about)
 
-      - [RSS Feed](/owlscience.co/index.xml) - Subscribe to this blog using RSS aggregators.
+      - [RSS Feed](/codeowl.space/index.xml) - Subscribe to this blog using RSS aggregators.
 
       - Reach out to me at byu1628[at]proton[dot]me (or any of the channels listed) if you have any questions/suggestions! 
 
@@ -56,7 +56,7 @@ params:
     - name: telegram
       url: "https://t.me/emergencyfood"
     - name: rss
-      url: /owlscience.co/index.xml
+      url: /codeowl.space/index.xml
 
   cover:
     hidden: true # hide everywhere but not in structured data
