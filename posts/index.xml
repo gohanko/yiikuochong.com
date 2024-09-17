@@ -15,5 +15,14 @@
       <guid>https://gohanko.github.io/codeowl.space/building-a-store-agnostic-app-store/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Dissecting Hi-Hive Community: Part I</title>
+      <link>https://gohanko.github.io/codeowl.space/dissecting-hi-hive-community-part-1/</link>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://gohanko.github.io/codeowl.space/dissecting-hi-hive-community-part-1/</guid>
+      <description>During COVID-19, my university debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
+After using the application for a few years, I noticed that it is too bloated with unnecessary features, it&amp;rsquo;s not very responsive, and important items are buried in unending levels of menus.
+Thus, I have the idea of rebuilding the application using a Jetpack Compose, and more modern UI frameworks.</description>
+    </item>
   </channel>
 </rss>
