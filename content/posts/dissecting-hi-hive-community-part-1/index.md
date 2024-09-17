@@ -38,24 +38,24 @@ Which upon further investigation, it appears that this library that was used: ht
 
 Furthermore, there is also presence of `index.android.bundle` as seen below.
 
-![Image of index.android.bundle in file structure](/assets/images/reactnative_bundle_proof.png "Image of index.android.bundle in file structure")
+![Image of index.android.bundle in file structure](./images/reactnative_bundle_proof.png "Image of index.android.bundle in file structure")
 
 The `index.android.bundle` contains compiled and bundled JavaScript code the application.
 
 ## Disassembling Hermes Bytecode
 I tried to open the bundle using a text editor but it showed an error. 
 
-![Image of cannot open bundle](/assets/images/cannot_open_bundle.png "Image of cannot open bundle")
+![Image of cannot open bundle](./images/cannot_open_bundle.png "Image of cannot open bundle")
 
 After a google search, I found out that Hermes VM is the default compilation target for more recent versions of React Native. Which is confirmed by the `file` command.
 
-![Image of file tool showing result](/assets/images/file_command_result.png "Image of file tool showing result")
+![Image of file tool showing result](./images/file_command_result.png "Image of file tool showing result")
 
 Fortunately, [P1 Security](https://www.p1sec.com/blog/releasing-hermes-dec-an-open-source-disassembler-and-decompiler-for-the-react-native-hermes-bytecode) released a tool to disassemble, and decompile Hermes bytecodes.
 
 Using the tool, [hermes-dec](https://github.com/P1sec/hermes-dec/), I disassembled the Hermes Bytecode into somewhat readable bytecode.
 
-![Image of not so readable pseudocode](/assets/images/not_so_readable_pseudocode.png "Image of not so readable pseudocode")
+![Image of not so readable pseudocode](./images/not_so_readable_pseudocode.png "Image of not so readable pseudocode")
 
 However this is still super unreadable, due to it being converted from `javascript` -> `obfuscated javascript` -> `hermes bytecode` -> `decompiled WASM` -> `disassembled JS`. Which meant that it's a "readable" version of the WASM code.
 
@@ -68,7 +68,7 @@ I thought, _what if the targetting of Hermes VM isn't actually on purpose by the
 
 As I thought, the `index.android.bundle` file is only obfuscated Javascript, not Hermes Bytecode!
 
-![Image of mode readable bundle](/assets/images/more_readable_bundle.png "Image of mode readable bundle")
+![Image of mode readable bundle](./images/more_readable_bundle.png "Image of mode readable bundle")
 
 This is a more readable version of the `index.android.bundle` file compared to the one of version `2.3.1` but not by much. But it's still better than nothing.
 
