@@ -79,7 +79,7 @@ What this means is that we now have a base to reverse engineer the API used by t
 
 ## Mapping the Endpoints
 
-## Figuring out the Authentication Methods
+## Figuring out the Authentication Method
 
 ## Roadblock to putting together a 3rd party library
 ![Image of firebase restriction](./images/firebase_restriction.png "Image of firebase restriction")
