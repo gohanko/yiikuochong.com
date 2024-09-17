@@ -76,6 +76,14 @@ What this means is that we now have a base to reverse engineer the API used by t
 
 # Reversing the API
 
-# Putting together a library
+
+## Mapping the Endpoints
+
+
+## Roadblock to putting together a 3rd party library
+![Image of firebase restriction](./images/firebase_restriction.png "Image of firebase restriction")
+
+# Other Methods
+
 
 # Conclusion
