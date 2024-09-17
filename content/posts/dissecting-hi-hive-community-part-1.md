@@ -6,13 +6,11 @@ tags: ['react-native', 'android', 'javascript', 'reverse-engineering']
 
 During COVID-19, my university debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
 
-Like the previous paper based attendance solution, it doesn't actually stop students from skipping class. Nontheless, that's not the issue we'll be discussing today.
-
-After using the application for a few years, I noticed that the original application is too bloated with unnecessary features, it's too slow, and important items are buried in unending levels of menus.
+After using the application for a few years, I noticed that the original application is too bloated with unnecessary features, it's not very responsive, and important items are buried in unending levels of menus.
 
 Thus, I have the idea of rebuilding the application using a Jetpack Compose, and more modern UI frameworks.
 
-I first needed to figure how the API works.
+To do so, I first needed to figure how the API works.
 
 # Preliminary Analysis
 Through regular usage, I suspected that it uses some kind of web/mobile hybrid framework. 
