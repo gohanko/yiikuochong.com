@@ -1,5 +1,5 @@
 ---
-title: "Dissecting Hi-Hive Community: Part I"
+title: "Hi-Hive Reborn: Reverse Engineering the Application (Part I)"
 date: 2024-09-09
 tags: ['react-native', 'android', 'javascript', 'reverse-engineering']
 ---
@@ -72,7 +72,10 @@ As I thought, the `index.android.bundle` file is only obfuscated Javascript, not
 
 This is a more readable version of the `index.android.bundle` file compared to the one of version `2.3.1` but not by much. But it's still better than nothing.
 
-What this means is that we have a base to reverse engineer the API used by the application.
+What this means is that we now have a base to reverse engineer the API used by the application.
 
 # Reversing the API
 
+# Putting together a library
+
+# Conclusion
