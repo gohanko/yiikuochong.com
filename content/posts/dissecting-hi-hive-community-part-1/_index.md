@@ -30,7 +30,7 @@ I unpacked the .apk using `jadx` and immediately there are telltale signs of Rea
 
 For example, this image below shows configuration for a react native push notification library.
 
-![Image of configuration for a React Native library](/assets/images/reactnative_proof.png "Image of configuration for a React Native library")
+![Image of configuration for a React Native library](./images/reactnative_proof.png "Image of configuration for a React Native library")
 
 Which upon further investigation, it appears that this library that was used: https://github.com/zo0r/react-native-push-notification, which is a React Native library.
 
