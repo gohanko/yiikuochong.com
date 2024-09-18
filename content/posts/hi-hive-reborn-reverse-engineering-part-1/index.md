@@ -57,7 +57,7 @@ Using the tool ([hermes-dec](https://github.com/P1sec/hermes-dec/)), I disassemb
 
 ![Image of not so readable pseudocode](./images/not_so_readable_pseudocode.png "Image of not so readable pseudocode")
 
-However this is still super unreadable, due to it being converted from `javascript` -> `obfuscated javascript` -> `hermes bytecode` -> `decompiled WASM` -> `disassembled pseudo-javascript`. 
+However this is still super unreadable, due to it being converted from `javascript` -> `obfuscated javascript` -> `hermes bytecode` -> `decompiled WASM` -> `disassembled javascript`. 
 
 This meant that it's a "readable" version of the WASM instructions, not how the original code is structured.
 
