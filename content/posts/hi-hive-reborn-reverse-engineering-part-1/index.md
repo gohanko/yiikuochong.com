@@ -83,6 +83,8 @@ After a bit of searching, I found the following parts. It seems to be an object 
 
 ![Image of API constants](./images/api_constants.png "Image of API constants")
 
+> NOTE: Through comparing the `bundle` file for v1.0.2 and v2.3.1, I found out that the `API_DOMAIN` is not pointing to `www.silverlakemobility.com` anymore, it is now pointing to `www.hi-hive.com`. A good thing to keep in mind.
+
 To implement the application, we only need to figure out some of the endpoints not all. 
 
 The API endpoints relevant to us are:
