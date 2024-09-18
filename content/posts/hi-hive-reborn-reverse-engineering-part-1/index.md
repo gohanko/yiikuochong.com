@@ -63,12 +63,12 @@ This meant that it's a "readable" version of the WASM instructions, not how the 
 
 Ideally, we want it to be `javascript` -> `obfuscated javascript` which should be more readable and actually represent the original code.
 
-## Back to the square one and cracking an older version.
+## Back to the square one and cracking an older version
 The `hermes-dec` project README states that React Native only started targetting the Hermes VM by default after React Native v0.70.
 
 I thought, _what if the targetting of Hermes VM isn't actually on purpose by the developer?_ So I grabbed version `1.0.2` of the application and cracked it open.
 
-> CONTEXT: Hi-Hive Community v1.0.2 was released before React Native v0.70. 
+> NOTE: Hi-Hive Community v1.0.2 was released before React Native v0.70. 
 
 As predicted! The `index.android.bundle` file is only obfuscated Javascript, not Hermes Bytecode!
 
@@ -79,16 +79,30 @@ This is a more readable version of the `index.android.bundle` file compared to t
 What this means is that we now have a base to reverse engineer the API used by the application.
 
 # Reversing the API
+After a bit of searching, I found the following parts. It seems to be an object containing all the API domain, and paths.
+
+![Image of API constants](./images/api_constants.png "Image of API constants")
+
+To implement the application, we only need to figure out some of the endpoints not all. The API endpoints relevant to us are:
+
+- Authentication
+- List courses & classes
+- Scanning QR
+
+With these, we can start mapping the needed endpoints and figure out what to pass to it.
+
+## Authentication
+
+### Figuring out the Authentication Method
 
 
-## Mapping the Endpoints
+## List courses & classes
 
-## Figuring out the Authentication Method
+## Scanning QR
 
-## Roadblock to putting together a 3rd party library
+# Roadblock to putting together a 3rd party library
 ![Image of firebase restriction](./images/firebase_restriction.png "Image of firebase restriction")
 
 # Other Methods
-
 
 # Conclusion
