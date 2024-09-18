@@ -40,29 +40,31 @@ Furthermore, there is also presence of `index.android.bundle` as seen below.
 
 ![Image of index.android.bundle in file structure](./images/reactnative_bundle_proof.png "Image of index.android.bundle in file structure")
 
-The `index.android.bundle` contains compiled and bundled JavaScript code the application.
+The `index.android.bundle` contains compiled and bundled JavaScript code for the application. Only React Native bundles this.
 
 ## Disassembling Hermes Bytecode
-I tried to open the bundle using a text editor but it showed an error. 
+Immediately, I tried to open the bundle using a text editor but it showed an error. 
 
 ![Image of cannot open bundle](./images/cannot_open_bundle.png "Image of cannot open bundle")
 
-After a google search, I found out that Hermes VM is the default compilation target for more recent versions of React Native. Which is confirmed by the `file` command.
+After a google search, I found out that Hermes VM is the default compilation target for more recent versions of React Native. Which is confirmed by the `file` command:
 
 ![Image of file tool showing result](./images/file_command_result.png "Image of file tool showing result")
 
 Fortunately, [P1 Security](https://www.p1sec.com/blog/releasing-hermes-dec-an-open-source-disassembler-and-decompiler-for-the-react-native-hermes-bytecode) released a tool to disassemble, and decompile Hermes bytecodes.
 
-Using the tool, [hermes-dec](https://github.com/P1sec/hermes-dec/), I disassembled the Hermes Bytecode into somewhat readable bytecode.
+Using the tool ([hermes-dec](https://github.com/P1sec/hermes-dec/)), I disassembled the Hermes bytecode into somewhat readable pseudo-javascript.
 
 ![Image of not so readable pseudocode](./images/not_so_readable_pseudocode.png "Image of not so readable pseudocode")
 
-However this is still super unreadable, due to it being converted from `javascript` -> `obfuscated javascript` -> `hermes bytecode` -> `decompiled WASM` -> `disassembled JS`. Which meant that it's a "readable" version of the WASM code.
+However this is still super unreadable, due to it being converted from `javascript` -> `obfuscated javascript` -> `hermes bytecode` -> `decompiled WASM` -> `disassembled pseudo-javascript`. 
 
-Ideally, we want it to be `javascript` -> `obfuscated javascript`, which should mean it's more readable.
+This meant that it's a "readable" version of the WASM instructions, not how the original code is structured.
 
-## Back to the beginning and cracking an older version.
-The `hermes-dec` GitHub README file mentioned that React Native only started targetting Hermes VM by default after React Native 0.70.
+Ideally, we want it to be `javascript` -> `obfuscated javascript`, which should mean it's more readable and actually represent the original code.
+
+## Back to the square one and cracking an older version.
+The `hermes-dec` project README states that React Native only started targetting the Hermes VM by default after React Native v0.70.
 
 I thought, _what if the targetting of Hermes VM isn't actually on purpose by the developer?_ So I grabbed version `1.0.2` of the application and cracked it open.
 
