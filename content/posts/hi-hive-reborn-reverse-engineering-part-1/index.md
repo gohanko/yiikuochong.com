@@ -68,11 +68,13 @@ The `hermes-dec` project README states that React Native only started targetting
 
 I thought, _what if the targetting of Hermes VM isn't actually on purpose by the developer?_ So I grabbed version `1.0.2` of the application and cracked it open.
 
-As I thought, the `index.android.bundle` file is only obfuscated Javascript, not Hermes Bytecode!
+> CONTEXT: Hi-Hive Community v1.0.2 was released before React Native v0.70. 
 
-![Image of mode readable bundle](./images/more_readable_bundle.png "Image of mode readable bundle")
+As predicted! The `index.android.bundle` file is only obfuscated Javascript, not Hermes Bytecode!
 
-This is a more readable version of the `index.android.bundle` file compared to the one of version `2.3.1` but not by much. But it's still better than nothing.
+![Image of more readable bundle](./images/more_readable_bundle.png "Image of more readable bundle")
+
+This is a more readable version of the `index.android.bundle` file compared to the one from version `2.3.1` but not by much. But it's still better than nothing.
 
 What this means is that we now have a base to reverse engineer the API used by the application.
 
