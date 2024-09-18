@@ -78,16 +78,18 @@ This is a more readable version of the `index.android.bundle` file compared to t
 
 What this means is that we now have a base to reverse engineer the API used by the application.
 
-# Reversing the API
+# Reversing and mapping the API
 After a bit of searching, I found the following parts. It seems to be an object containing all the API domain, and paths.
 
 ![Image of API constants](./images/api_constants.png "Image of API constants")
 
-To implement the application, we only need to figure out some of the endpoints not all. The API endpoints relevant to us are:
+To implement the application, we only need to figure out some of the endpoints not all. 
 
-- Authentication
-- List courses & classes
-- Scanning QR
+The API endpoints relevant to us are:
+
+- Endpoints for authentication
+- Endpoints for listing courses & classes
+- Endpoints for scanning QR codes
 
 With these, we can start mapping the needed endpoints and figure out what to pass to it.
 
