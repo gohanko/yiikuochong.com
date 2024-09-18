@@ -61,7 +61,7 @@ However this is still super unreadable, due to it being converted from `javascri
 
 This meant that it's a "readable" version of the WASM instructions, not how the original code is structured.
 
-Ideally, we want it to be `javascript` -> `obfuscated javascript`, which should mean it's more readable and actually represent the original code.
+Ideally, we want it to be `javascript` -> `obfuscated javascript` which should be more readable and actually represent the original code.
 
 ## Back to the square one and cracking an older version.
 The `hermes-dec` project README states that React Native only started targetting the Hermes VM by default after React Native v0.70.
