@@ -32,7 +32,7 @@ For example, this image below shows configuration for a react native push notifi
 
 ![Image of configuration for a React Native library](./images/reactnative_proof.png "Image of configuration for a React Native library")
 
-Which upon further investigation, it appears that this library that was used: https://github.com/zo0r/react-native-push-notification, which is a React Native library.
+Which upon further investigation, it appears that this library was used: https://github.com/zo0r/react-native-push-notification, which is a React Native library for push notifications.
 
 ## Checking for presence of `index.android.bundle`
 
@@ -70,13 +70,13 @@ I thought, _what if the targetting of Hermes VM isn't actually on purpose by the
 
 > NOTE: Hi-Hive Community v1.0.2 was released before React Native v0.70. 
 
-As predicted! The `index.android.bundle` file is only obfuscated Javascript, not Hermes Bytecode!
+As predicted! The `index.android.bundle` file is only obfuscated Javascript, not Hermes bytecode!
 
 ![Image of more readable bundle](./images/more_readable_bundle.png "Image of more readable bundle")
 
-This is a more readable version of the `index.android.bundle` file compared to the one from version `2.3.1` but not by much. But it's still better than nothing.
+This is a more readable version of the `index.android.bundle` file compared to the one from version `2.3.1`. Not by much but it's still better than nothing.
 
-What this means is that we now have a base to reverse engineer the API used by the application.
+What this means is that we now have a base from which to reverse engineer the API used by the application.
 
 # Reversing and mapping the API
 After a bit of searching, I found the following parts. It seems to be an object containing all the API domain, and paths.
