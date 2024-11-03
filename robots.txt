@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://gohanko.github.io/codeowl.space/sitemap.xml
+Sitemap: https://gohanko.github.io/bygz.net/sitemap.xml
