@@ -74,7 +74,7 @@ As predicted! The `index.android.bundle` file is only obfuscated Javascript, not
 
 ![Image of more readable bundle](./images/more_readable_bundle.png "Image of more readable bundle")
 
-This is a more readable version of the `index.android.bundle` file compared to the one from version `2.3.1`. Not by much but it's still better than nothing.
+This is a more readable version of the `index.android.bundle` file compared to the one from version `2.3.1`, not by much but it's still better than nothing.
 
 What this means is that we now have a base from which to reverse engineer the API used by the application.
 
