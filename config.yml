@@ -1,6 +1,6 @@
-baseURL: 'https://gohanko.github.io/codeowl.space/'
+baseURL: 'https://gohanko.github.io/bygz.net/'
 languageCode: 'en-us'
-title: 'codeowl.space'
+title: 'bygz.net'
 theme: 'PaperMod'
 
 googleAnalytics: G-DKYY4HJSRB
@@ -42,9 +42,9 @@ params:
   homeInfoParams:
     Title: "[~]$ whoami"
     Content: >
-      A Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/codeowl.space/about)
+      A Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/bygz.net/about)
 
-      - [RSS Feed](/codeowl.space/index.xml) - Subscribe to this blog using RSS aggregators.
+      - [RSS Feed](/bygz.net/index.xml) - Subscribe to this blog using RSS aggregators.
 
       - Reach out to me at byu1628[at]proton[dot]me (or any of the channels listed) if you have any questions/suggestions! 
 
@@ -56,7 +56,7 @@ params:
     - name: telegram
       url: "https://t.me/emergencyfood"
     - name: rss
-      url: /codeowl.space/index.xml
+      url: /bygz.net/index.xml
 
   cover:
     hidden: true # hide everywhere but not in structured data
