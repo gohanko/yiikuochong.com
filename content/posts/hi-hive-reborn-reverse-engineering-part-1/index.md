@@ -18,7 +18,7 @@ Through regular usage, I suspected that it uses some kind of web/mobile hybrid f
 Some symptoms I've noticed are:
 1. **Slow and slightly off user interface** - There will be slight delays when tapping on elements, animation is slow, and low frame rates at times.
 2. **Lack of uniformity in the components** - A lot of the components seems custom made. There are a mix of native elements with custom ones.
-3. **Existence of web-view like pages** - Some of the functions are loaded through webview.
+3. **Existence of web-view pages** - Some of the functions are loaded through webview.
 
 All in all it _feels_ like using a website. My gut feelings tell me that it's a web/mobile hybrid framework. Most likely using React Native.
 
@@ -57,7 +57,7 @@ Using the tool ([hermes-dec](https://github.com/P1sec/hermes-dec/)), I disassemb
 
 ![Image of not so readable pseudocode](./images/not_so_readable_pseudocode.png "Image of not so readable pseudocode")
 
-However this is still super unreadable, due to it being converted from `javascript` -> `obfuscated javascript` -> `hermes bytecode` -> `decompiled WASM` -> `disassembled javascript`. 
+However this is still super unreadable due to it being converted from `javascript` -> `obfuscated javascript` -> `hermes bytecode` -> `decompiled WASM` -> `disassembled javascript`. 
 
 This meant that it's a "readable" version of the WASM instructions, not how the original code is structured.
 
@@ -66,7 +66,7 @@ Ideally, we want it to be `javascript` -> `obfuscated javascript` which should b
 ## Back to the square one and cracking an older version
 The `hermes-dec` project README states that React Native only started targetting the Hermes VM by default after React Native v0.70.
 
-I thought, _what if the targetting of Hermes VM isn't actually on purpose by the developer?_ So I grabbed version `1.0.2` of the application and cracked it open.
+I thought, _what if the targetting of Hermes VM isn't actually on purpose?_ So I grabbed version `1.0.2` of the application and cracked it open.
 
 > NOTE: Hi-Hive Community v1.0.2 was released before React Native v0.70. 
 
