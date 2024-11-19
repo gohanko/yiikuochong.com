@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production
-  title: "CodeOwl Blog"
+  title: "Yii Kuo Chong Blog"
   description: "thoughts on web development, cybersecurity and life"
   keywords: ['web development', 'cybersecurity', 'software development', 'linux']
   author: Yii Kuo Chong
