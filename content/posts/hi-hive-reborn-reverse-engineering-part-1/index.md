@@ -85,7 +85,7 @@ After a bit of searching, I found the following parts. It seems to be an object 
 
 > NOTE: Through comparing v1.0.2 and v2.3.1, I found out that `API_DOMAIN` is not pointing to `www.silverlakemobility.com` anymore, it is now pointing to `www.hi-hive.com`.
 
-To implement the application, we only need to figure out some of the endpoints not all. 
+To implement the application, we only need to figure out some of the endpoints. 
 
 The API endpoints relevant to us are:
 
