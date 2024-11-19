@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog</title>
-    <link>yiikuochong.com/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="yiikuochong.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hi-Hive Reborn: Reverse Engineering the Application (Part 1)</title>
-      <link>yiikuochong.com/hi-hive-reborn-reverse-engineering-part-1/</link>
+      <link>/hi-hive-reborn-reverse-engineering-part-1/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>yiikuochong.com/hi-hive-reborn-reverse-engineering-part-1/</guid>
+      <guid>/hi-hive-reborn-reverse-engineering-part-1/</guid>
       <description>During COVID-19, my university debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
 After using the application for a few years, I noticed that it was too bloated with unnecessary features, it&amp;rsquo;s not very responsive, and important items are buried in unending levels of menus.
 Thus, I have the idea of rebuilding the application using Kotlin, Jetpack Compose, and more modern UI frameworks.</description>

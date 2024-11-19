@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>yiikuochong.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/tags/android/</loc>
+    <loc>/tags/android/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/</loc>
+    <loc>/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/tags/hello/</loc>
+    <loc>/tags/hello/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/hi-hive-reborn-reverse-engineering-part-1/</loc>
+    <loc>/hi-hive-reborn-reverse-engineering-part-1/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/tags/javascript/</loc>
+    <loc>/tags/javascript/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/tags/react-native/</loc>
+    <loc>/tags/react-native/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/tags/reverse-engineering/</loc>
+    <loc>/tags/reverse-engineering/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/tags/world/</loc>
+    <loc>/tags/world/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>yiikuochong.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>
