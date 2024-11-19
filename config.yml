@@ -7,7 +7,7 @@ googleAnalytics: G-J2N6RFYFZH
 enableRobotsTxt: true
 
 permalinks:
-  posts: "/:filename"
+  posts: "/posts/:filename"
 
 minify:
     disableXML: true
