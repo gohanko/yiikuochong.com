@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>world on Blog</title>
-    <link>/tags/world/</link>
-    <description>Recent content in world on Blog</description>
+    <title>world on Yii Kuo Chong</title>
+    <link>https://yiikuochong.com/tags/world/</link>
+    <description>Recent content in world on Yii Kuo Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/world/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yiikuochong.com/tags/world/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>/about/</link>
+      <link>https://yiikuochong.com/about/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
+      <guid>https://yiikuochong.com/about/</guid>
       <description>Hi, I&amp;rsquo;m Brandon. I write code for a living. Sometimes for companies, sometimes for myself.
 This is a personal blog which I use to document my learning journey and share my work with the world.
 You can learn more about my professional experience on my LinkedIn profile.
