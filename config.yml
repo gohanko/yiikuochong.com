@@ -1,9 +1,9 @@
-baseURL: ''
+baseURL: '/'
 languageCode: 'en-us'
-title: 'Blog'
+title: 'Yii Kuo Chong'
 theme: 'PaperMod'
 
-googleAnalytics: G-DKYY4HJSRB
+googleAnalytics: G-J2N6RFYFZH
 enableRobotsTxt: true
 
 permalinks:
