@@ -10,9 +10,9 @@
     <atom:link href="https://yiikuochong.com/tags/reverse-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reverse Engineering Hi-Hive Community</title>
-      <link>https://yiikuochong.com/reverse-engineering-hi-hive-community/</link>
+      <link>https://yiikuochong.com/posts/reverse-engineering-hi-hive-community/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/reverse-engineering-hi-hive-community/</guid>
+      <guid>https://yiikuochong.com/posts/reverse-engineering-hi-hive-community/</guid>
       <description>During COVID-19, my university debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
 After using the application for a few years, I noticed that it was too bloated with unnecessary features, it&amp;rsquo;s not very responsive, and important items are buried in unending levels of menus.
 Thus, I have the idea of rebuilding the application using Kotlin, Jetpack Compose, and more modern UI frameworks.</description>
