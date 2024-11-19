@@ -1,4 +1,4 @@
-# bygz.net
+# yiikuochong.com
 Blogging and notes site to document my learning journey.
 
 Uses Hugo and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
