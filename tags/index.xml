@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on bygz.net</title>
-    <link>https://gohanko.github.io/bygz.net/tags/</link>
-    <description>Recent content in Tags on bygz.net</description>
+    <title>Tags on Blog</title>
+    <link>yiikuochong.com/tags/</link>
+    <description>Recent content in Tags on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gohanko.github.io/bygz.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="yiikuochong.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>android</title>
-      <link>https://gohanko.github.io/bygz.net/tags/android/</link>
+      <link>yiikuochong.com/tags/android/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/bygz.net/tags/android/</guid>
+      <guid>yiikuochong.com/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>hello</title>
-      <link>https://gohanko.github.io/bygz.net/tags/hello/</link>
+      <link>yiikuochong.com/tags/hello/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/bygz.net/tags/hello/</guid>
+      <guid>yiikuochong.com/tags/hello/</guid>
       <description></description>
     </item>
     <item>
       <title>javascript</title>
-      <link>https://gohanko.github.io/bygz.net/tags/javascript/</link>
+      <link>yiikuochong.com/tags/javascript/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/bygz.net/tags/javascript/</guid>
+      <guid>yiikuochong.com/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>react-native</title>
-      <link>https://gohanko.github.io/bygz.net/tags/react-native/</link>
+      <link>yiikuochong.com/tags/react-native/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/bygz.net/tags/react-native/</guid>
+      <guid>yiikuochong.com/tags/react-native/</guid>
       <description></description>
     </item>
     <item>
       <title>reverse-engineering</title>
-      <link>https://gohanko.github.io/bygz.net/tags/reverse-engineering/</link>
+      <link>yiikuochong.com/tags/reverse-engineering/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/bygz.net/tags/reverse-engineering/</guid>
+      <guid>yiikuochong.com/tags/reverse-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>world</title>
-      <link>https://gohanko.github.io/bygz.net/tags/world/</link>
+      <link>yiikuochong.com/tags/world/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gohanko.github.io/bygz.net/tags/world/</guid>
+      <guid>yiikuochong.com/tags/world/</guid>
       <description></description>
     </item>
   </channel>
