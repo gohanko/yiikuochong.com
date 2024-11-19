@@ -1,6 +1,6 @@
-baseURL: '/'
+baseURL: 'https://yiikuochong.com'
 languageCode: 'en-us'
-title: 'Yii Kuo Chong'
+title: "Yii Kuo Chong"
 theme: 'PaperMod'
 
 googleAnalytics: G-J2N6RFYFZH

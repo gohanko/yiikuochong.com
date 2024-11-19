@@ -1,5 +1,5 @@
 ---
-title: "Hi-Hive Reborn: Reverse Engineering the Application (Part 1)"
+title: "Reverse Engineering Hi-Hive Community"
 date: 2024-09-09
 tags: ['react-native', 'android', 'javascript', 'reverse-engineering']
 ---
