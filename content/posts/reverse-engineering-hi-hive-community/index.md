@@ -23,7 +23,7 @@ Some symptoms I've noticed are:
 All in all it _feels_ like using a website. My gut feelings tell me that it's a web/mobile hybrid framework. Most likely using React Native.
 
 # Dissecting the Application
-The only method to really confirm this is by cracking it open and have a look at the internals. Here, we will be using version `2.3.1` of the applicaiton downloaded from [ApkPure](https://apkpure.com/hi-hive-community/com.slc.hihive.community).
+The only method to really confirm this is by cracking it open and have a look at the internals. Here, we will be using version `2.3.1` of the application downloaded from [ApkPure](https://apkpure.com/hi-hive-community/com.slc.hihive.community).
 
 ## Unpacking the `.apk`
 I unpacked the .apk using `jadx` and immediately there are telltale signs of React Native.
@@ -32,7 +32,7 @@ For example, this image below shows configuration for a react native push notifi
 
 ![Image of configuration for a React Native library](./images/reactnative_proof.png "Image of configuration for a React Native library")
 
-Which upon further investigation, it appears that this library was used: https://github.com/zo0r/react-native-push-notification, which is a React Native library for push notifications.
+Which upon further investigation, it appears that this was the library used: https://github.com/zo0r/react-native-push-notification. It's a React Native library.
 
 ## Checking for presence of `index.android.bundle`
 
@@ -57,18 +57,16 @@ Using the tool ([hermes-dec](https://github.com/P1sec/hermes-dec/)), I disassemb
 
 ![Image of not so readable pseudocode](./images/not_so_readable_pseudocode.png "Image of not so readable pseudocode")
 
-However this is still super unreadable due to it being converted from `javascript` -> `obfuscated javascript` -> `hermes bytecode` -> `decompiled WASM` -> `disassembled javascript`. 
+However this is still super unreadable, due to it being converted from `javascript` to `obfuscated javascript` to `hermes bytecode` to `decompiled WASM` to `javascript pseudocode`. 
 
 This meant that it's a "readable" version of the WASM instructions, not how the original code is structured.
 
-Ideally, we want it to be `javascript` -> `obfuscated javascript` which should be more readable and actually represent the original code.
+Ideally, we want to get the version of tthe application that converted `javascript` to `obfuscated javascript` which should be more readable, and actually represent the original code.
 
 ## Back to the square one and cracking an older version
 The `hermes-dec` project README states that React Native only started targetting the Hermes VM by default after React Native v0.70.
 
-I thought, _what if the targetting of Hermes VM isn't actually on purpose?_ So I grabbed version `1.0.2` of the application and cracked it open.
-
-> NOTE: Hi-Hive Community v1.0.2 was released before React Native v0.70. 
+I thought, _what if the targetting of Hermes VM isn't actually on purpose by the developer?_ So I grabbed version `1.0.2` of the application which was released before React Native v.70, and cracked it open.
 
 As predicted! The `index.android.bundle` file is only obfuscated Javascript, not Hermes bytecode!
 
@@ -89,20 +87,18 @@ To implement the application, we only need to figure out some of the endpoints.
 
 The API endpoints relevant to us are:
 
-- Endpoints for authentication
-- Endpoints for listing courses & classes
-- Endpoints for scanning QR codes
+- Authentication
+- Listing classes, and attendance
+- Scanning QR codes
 
 With these, we can start mapping the needed endpoints and figure out what to pass to it.
 
 ## Authentication
 
-### Figuring out the Authentication Method
 
+## Listing classes, and attendance
 
-## List courses & classes
-
-## Scanning QR
+## Scanning QR Codes
 
 # Roadblock to putting together a 3rd party library
 ![Image of firebase restriction](./images/firebase_restriction.png "Image of firebase restriction")
