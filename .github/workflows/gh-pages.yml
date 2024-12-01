@@ -28,6 +28,7 @@ jobs:
         run: hugo --minify
 
       - name: Copy CNAME To Deployment Branch
+        uses: planetoftheweb/copy-to-branches@v1
         env:
           key: master
           files: CNAME
