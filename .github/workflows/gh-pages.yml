@@ -28,7 +28,7 @@ jobs:
         run: hugo --minify
 
       - name: Copy CNAME To Build Directory
-        run: cp ./CNAME ./build/CNAME
+        run: cp ./CNAME ./public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
