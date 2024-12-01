@@ -27,15 +27,12 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Copy CNAME To Build Directory
+        run: cp ./CNAME ./build/CNAME
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
-      - name: Copy CNAME To Deployment Branch
-        uses: planetoftheweb/copy-to-branches@v1
-        env:
-          key: master
-          files: CNAME
