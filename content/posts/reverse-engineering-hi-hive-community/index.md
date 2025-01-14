@@ -104,6 +104,7 @@ It seems to be a bunch of async functions, and essentially what it does is:
 2. Then use the token to encrypt the password using the `convertPBEWithMD5AndDES` function.
 3. Then pass the resulting encrypted password as apart of the payload.
 
+### The API Call
 The application then calls the login endpoint with the following JSON payload structure:
 
 `POST https://www.hi-hive.com/chat/api/preLogin/login`
@@ -121,7 +122,7 @@ I suspect what happens here is that there was a requirement to not send password
 The token is then sent alongside the password, which I assume is used to decrypt it, and used to authenticate that the password was encrypted with a token related with the developer.
 
 ## Roadblock to putting together a 3rd party library
-This puts a big roadblock on our goal. What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token (possibly related to the original developer).
+This puts a big roadblock on our goal. What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token.
 
 One method to solve this is I can try to reverse engineer Google's FCM library, then figure out if it's possible to generate legit FCM tokens, and then check if authentication would work with that generated token. 
 
