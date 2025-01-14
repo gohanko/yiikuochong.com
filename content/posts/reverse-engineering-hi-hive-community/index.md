@@ -102,9 +102,9 @@ It seems to be a bunch of async functions, and essentially what it does is:
 
 1. Loads a Firebase Cloud Messaging (FCM) token from local storage.
 2. Then use the token to encrypt the password using the `convertPBEWithMD5AndDES` function.
-3. Then pass the resulting encrypted password as apart of the payload.
+3. Then pass the resulting encrypted password as part of the payload.
 
-### The API Call
+### The Login API Call
 The application then calls the login endpoint with the following JSON payload structure:
 
 `POST https://www.hi-hive.com/chat/api/preLogin/login`
