@@ -128,7 +128,7 @@ One method to solve this is I can try to reverse engineer Google's FCM library, 
 
 Until then, listing classes, listing attendance, and scanning QR codes is essentially unusable. It'll probably stay that way since I'm not very interested in reverse engineering Google's FCM SDK, especially since I'm graduating and won't be able to use the results myself.
 
-# Other Methods (network monitoring)
+# Other method (Network Monitoring)
 Apart from inspecting the unobfuscated code, I've used network monitoring to figure out the various endpoints and their needed payload which brought similar results. 
 
 This was achieved by:
