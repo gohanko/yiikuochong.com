@@ -106,9 +106,8 @@ It seems to be a bunch of async functions, and essentially what it does is:
 
 The application then calls the login endpoint with the following JSON payload structure:
 
+`POST https://www.hi-hive.com/chat/api/preLogin/login`
 ```json
-POST https://www.hi-hive.com/chat/api/preLogin/login
-
 {
     "userId": "your user email",
     "password": "encrypted version of your password",
