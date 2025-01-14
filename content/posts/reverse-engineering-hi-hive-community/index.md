@@ -93,18 +93,18 @@ The API endpoints relevant to us are:
 
 With these, I can start mapping the needed endpoints and figure out what to pass to it.
 
-## Cracking the authentication method (and the big roadblock)
-However, I actually ran into some trouble early on that makes all of these efforts moot. Have a look at this snippet of code:
+## Cracking the authentication method
+Looking through the rest, I found some snippets that shows how the API is being used. It is the callback function for the "Login" button when it's pressed on the login page.
 
 ![Image of firebase restriction](./images/firebase_restriction.png "Image of firebase restriction")
 
-It's obfuscated, but essentially what it does is:
+Seems to be written in nested async functions (then inside then), and essentially what it does is:
 
 1. Loads a Firebase Cloud Messaging (FCM) token from local storage.
 2. Then take the token and use it to encrypt the password using the `convertPBEWithMD5AndDES` function.
 3. Then pass the resulting encrypted password as apart of the payload.
 
-To log in, the application calls the `https://www.hi-hive.com/chat/api/preLogin/login` endpoint with the folowing JSON payload structure:
+The application calls the `https://www.hi-hive.com/chat/api/preLogin/login` endpoint with the folowing JSON payload structure when loggin in:
 
 ```json
 {
@@ -117,19 +117,29 @@ To log in, the application calls the `https://www.hi-hive.com/chat/api/preLogin/
 
 I suspect what happens here is that there was a requirement to not send passwords over the internet in plain text even though the connection to the API is secured by SSL. 
 
-The token is then sent along with the password to decrypt it, or at least authenticate that the password is encrypted with a token related to the developer's FCM account (this part is an assumption, yet to be tested).
+I assume that the token is then sent alongside the password to decrypt it, or at least authenticate that the password is encrypted with a token related to the developer's FCM account.
 
 ## Roadblock to putting together a 3rd party library
-What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token (possibly related to the original developer), and encrypt the password with it.
+This puts a big roadblock on our goal. What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token whcih possibly needs to be related to the original developer, and encrypt the password with it.
 
-One method to solve this is I can try to reverse engineer Google's FCM library, figure out if it's possible to generate legit FCM tokens (since FCM is a client-side service), and then check if authentication would work if signed with that token.
+One method to solve this is I can try to reverse engineer Google's FCM library, figure out if it's possible to generate legit FCM tokens, and then check if authentication would work with that generated token. 
 
-Until then listing classes, listing attendance, and scanning QR codes is essentially unusable. 
+Until then listing classes, listing attendance, and scanning QR codes is essentially unusable. It'll probably stay that way since I'm not very interested in reverse engineering Google's FCM SDK, especially since I'm graduating and won't be able to use the results myself.
 
-It'll probably stay that way since I'm not very interested in reverse engineering Google's FCM SDK, especially since I'm graduating and won't be able to use the result myself.
+# Other Methods (network monitoring)
+Apart from inspecting the unobfuscated code, I've used network monitoring to figure out the various endpoints and their needed payload which brought similar results. 
 
-# Other Methods
-Apart from cracking the application open, I've actually used 
+This was achieved by:
+1. Preparing the application for network monitoring by
+    - Cracking it open.
+    - Editing the `AndroidManifest.xml` file so that it trust user added CAs.
+    - Repacking, and installing it on my physical device.
+2. Preparing the device by installing a SSL Certificate from CharlesProxy.
+3. Monitoring the traffic of the device (and by proxy the application) using [CharlesProxy](https://www.charlesproxy.com/).
+
+At the time, I was able to actually login using the tokens and encrypted password intercepted here which returned a session token, but I wasn't able to capitalize on it due to the same problems stated before.
 
 # Conclusion
-All in all, it's an interesting experience reverse engineering a react native application.
+All in all, although I did not go all the way with reverse engineering Google's FCM SDK, it was an interesting experience reverse engineering a React Native application from my school. Learnt a bunch on how React Native actually works under the hood, as well as the tools needed to reverse engineer an android application.
+
+Since you've made it this far, thank you for reading! Let me know if the article was interesting, and if there's anything to improve.
