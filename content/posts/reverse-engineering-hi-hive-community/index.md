@@ -142,4 +142,4 @@ This was achieved by:
 At the time, I was able to actually login using the tokens and encrypted password intercepted here which returned a session token, but I wasn't able to capitalize on it due to the same problems stated before.
 
 # Conclusion
-All in all, although I did not go all the way, it was an interesting experience reverse engineering a React Native application from my university and figure out it's inner workings.
+All in all, although I did not go all the way, it was an interesting experience reverse engineering a React Native application from my university and figure out its inner workings.
