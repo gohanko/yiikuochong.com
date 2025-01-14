@@ -124,7 +124,7 @@ The token is then sent alongside the password, which I assume is used to decrypt
 ## Roadblock to putting together a 3rd party library
 This puts a big roadblock on our goal. What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token.
 
-One method to solve this is I can try to reverse engineer Google's FCM library, then figure out if it's possible to generate legit FCM tokens, and then check if authentication would work with that generated token. 
+One method to solve this is to reverse engineer Google's FCM library, then figure out if it's possible to generate legit FCM tokens, and then check if authentication would work with that generated token. 
 
 Until then, listing classes, listing attendance, and scanning QR codes is essentially unusable. It'll probably stay that way since I'm not very interested in reverse engineering Google's FCM SDK, especially since I'm graduating and won't be able to use the results myself.
 
