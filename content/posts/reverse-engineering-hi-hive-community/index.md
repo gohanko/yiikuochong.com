@@ -76,7 +76,7 @@ This is a more readable version of the `index.android.bundle` file compared to t
 
 What this means is that we now have a base from which to reverse engineer the API used by the application.
 
-# Reversing and mapping the API
+# Reverse engineering and mapping the API
 After a bit of searching, I found the following parts. It seems to be an object containing all the API domain, and paths.
 
 ![Image of API constants](./images/api_constants.png "Image of API constants")
@@ -93,16 +93,38 @@ The API endpoints relevant to us are:
 
 With these, we can start mapping the needed endpoints and figure out what to pass to it.
 
-## Authentication
+## Cracking the authentication method (and the big roadblock)
+However, we actually ran into some trouble early on that makes all of these efforts moot. Have a look at this snippet of code:
 
-
-## Listing classes, and attendance
-
-## Scanning QR Codes
-
-# Roadblock to putting together a 3rd party library
 ![Image of firebase restriction](./images/firebase_restriction.png "Image of firebase restriction")
 
+It's obfuscated, but essentially what it does is:
+
+1. Loads a Firebase Cloud Messaging (FCM) token from local storage.
+2. Then take the token and use it to encrypt the password using the `convertPBEWithMD5AndDES` function.
+3. Then pass the resulting encrypted password as apart of the payload.
+
+To log in, the application calls the `https://www.hi-hive.com/chat/api/preLogin/login` endpoint with the folowing JSON payload structure:
+
+```json
+{
+    "userId": "your user email",
+    "password": "encrypted version of your password",
+    "os": "Ios or Android",
+    "token": "The FCM token used to encrypt the password."
+}
+```
+
+I suspect what happens here is that there was a requirement to not send passwords over the internet in plain text even though the connection to the API is secured by SSL. The token is then sent along with the password to decrypt it, or at least authenticate that the password is encrypted with a token related to the developer's FCM account (this part is an assumption, yet to be tested).
+
+## Roadblock to putting together a 3rd party library
+What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token (possibly related to the original developer), and encrypt the password with it.
+
+One method to solve this is we can try to reverse engineer Google's FCM library, figure out if it's possible to generate legit FCM tokens (since FCM is a client-side service), and then check if authentication would work if signed with that token.
+
+Until then listing classes, listing attendance, and scanning QR codes is essentially unusable. It'll probably stay that way since I'm not very interested in reverse engineering Google's FCM SDK, especially since I'm graduating and I won't be able to use the result myself soon.
+
 # Other Methods
+Apart from cracking the application open, I've actually used 
 
 # Conclusion
