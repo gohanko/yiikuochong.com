@@ -124,9 +124,9 @@ The token is then sent alongside the password, which I assume is used to decrypt
 ## Roadblock to putting together a library
 This puts a big roadblock on our goal. What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token.
 
-One method to solve this is to reverse engineer Google's FCM library, then figure out if it's possible to generate legit FCM tokens, and then check if authentication would work with that generated token. 
+One method to solve this is to reverse engineer the FCM SDK, then figure out if it's possible to generate legit FCM tokens, and then check if authentication would work with that generated token. 
 
-Until then, listing classes, listing attendance, and scanning QR codes is essentially unusable. It'll probably stay that way since I'm not very interested in reverse engineering Google's FCM SDK, especially since I'm graduating and won't be able to use the results myself.
+Until then, listing classes, listing attendance, and scanning QR codes is essentially unusable. It'll probably stay that way since I'm not very interested in reverse engineering the FCM SDK, especially when I'm graduating and won't be able to use the results myself.
 
 # Other method (Network Monitoring)
 Apart from inspecting the unobfuscated code, I've used network monitoring to figure out the various endpoints and their needed payload which brought similar results. 
@@ -142,4 +142,4 @@ This was achieved by:
 At the time, I was able to actually login using the tokens and encrypted password intercepted here which returned a session token, but I wasn't able to capitalize on it due to the same problems stated before.
 
 # Conclusion
-All in all, although I did not go all the way with reverse engineering Google's FCM SDK, it was an interesting experience reverse engineering a React Native application from my school.
+All in all, although I did not go all the way, it was an interesting experience reverse engineering a React Native application from my school.
