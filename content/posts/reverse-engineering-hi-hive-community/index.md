@@ -47,7 +47,7 @@ Immediately, I tried to open the bundle using a text editor but it showed an err
 
 ![Image of cannot open bundle](./images/cannot_open_bundle.png "Image of cannot open bundle")
 
-After a google search, I found out that Hermes VM is the default compilation target for more recent versions of React Native. Which is confirmed by the `file` command:
+After a google search, I found out that Hermes VM is the default compilation target for more recent versions of React Native. Which is confirmed using the `file` command:
 
 ![Image of file tool showing result](./images/file_command_result.png "Image of file tool showing result")
 
@@ -66,7 +66,7 @@ Ideally, we want to get the version of the application that converted `javascrip
 ## Back to the square one and cracking an older version
 The `hermes-dec` project README states that React Native only started targetting the Hermes VM by default after React Native v0.70.
 
-I thought, _what if the targetting of Hermes VM isn't actually on purpose by the developer?_ So I grabbed version `1.0.2` of the application which was released before React Native v.70, and cracked it open.
+I thought, _what if the targetting of Hermes VM isn't actually on purpose by the developer?_ So I grabbed version `1.0.2` of the application which was released before React Native v0.70, and cracked it open.
 
 As predicted! The `index.android.bundle` file is only obfuscated Javascript, not Hermes bytecode!
 
