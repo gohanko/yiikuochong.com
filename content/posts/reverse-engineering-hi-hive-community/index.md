@@ -23,7 +23,7 @@ Some symptoms I've noticed are:
 All in all it _feels_ like using a website. My gut feelings tell me that it's a web/mobile hybrid framework. Most likely using React Native.
 
 # Dissecting the Application
-The only method to really confirm this is by cracking it open and have a look at the internals. Here, we will be using version `2.3.1` of the application downloaded from [ApkPure](https://apkpure.com/hi-hive-community/com.slc.hihive.community).
+The only method to really confirm this is by cracking it open and have a look at the internals. Here, I will be using version `2.3.1` of the application downloaded from [ApkPure](https://apkpure.com/hi-hive-community/com.slc.hihive.community).
 
 ## Unpacking the `.apk`
 I unpacked the .apk using `jadx` and immediately there are telltale signs of React Native.
@@ -61,7 +61,7 @@ However this is still super unreadable, due to it being converted from `javascri
 
 This meant that it's a "readable" version of the WASM instructions, not how the original code is structured.
 
-Ideally, we want to get the version of the application that converted `javascript` to `obfuscated javascript` which should be more readable, and actually represent the original code.
+Ideally, I want to get the version of the application that converted `javascript` to `obfuscated javascript` which should be more readable, and actually represent the original code.
 
 ## Back to the square one and cracking an older version
 The `hermes-dec` project README states that React Native only started targetting the Hermes VM by default after React Native v0.70.
@@ -74,7 +74,7 @@ As predicted! The `index.android.bundle` file is only obfuscated Javascript, not
 
 This is a more readable version of the `index.android.bundle` file compared to the one from version `2.3.1`, not by much but it's still better than nothing.
 
-What this means is that we now have a base from which to reverse engineer the API used by the application.
+What this means is that I now have a base from which to reverse engineer the API used by the application.
 
 # Reverse engineering and mapping the API
 After a bit of searching, I found the following parts. It seems to be an object containing all the API domain, and paths.
@@ -83,7 +83,7 @@ After a bit of searching, I found the following parts. It seems to be an object 
 
 > NOTE: Through comparing v1.0.2 and v2.3.1, I found out that `API_DOMAIN` is not pointing to `www.silverlakemobility.com` anymore, it is now pointing to `www.hi-hive.com`.
 
-To implement the application, we only need to figure out some of the endpoints. 
+To implement the application, I only need to figure out some of the endpoints. 
 
 The API endpoints relevant to us are:
 
@@ -91,10 +91,10 @@ The API endpoints relevant to us are:
 - Listing classes, and attendance
 - Scanning QR codes
 
-With these, we can start mapping the needed endpoints and figure out what to pass to it.
+With these, I can start mapping the needed endpoints and figure out what to pass to it.
 
 ## Cracking the authentication method (and the big roadblock)
-However, we actually ran into some trouble early on that makes all of these efforts moot. Have a look at this snippet of code:
+However, I actually ran into some trouble early on that makes all of these efforts moot. Have a look at this snippet of code:
 
 ![Image of firebase restriction](./images/firebase_restriction.png "Image of firebase restriction")
 
@@ -115,16 +115,21 @@ To log in, the application calls the `https://www.hi-hive.com/chat/api/preLogin/
 }
 ```
 
-I suspect what happens here is that there was a requirement to not send passwords over the internet in plain text even though the connection to the API is secured by SSL. The token is then sent along with the password to decrypt it, or at least authenticate that the password is encrypted with a token related to the developer's FCM account (this part is an assumption, yet to be tested).
+I suspect what happens here is that there was a requirement to not send passwords over the internet in plain text even though the connection to the API is secured by SSL. 
+
+The token is then sent along with the password to decrypt it, or at least authenticate that the password is encrypted with a token related to the developer's FCM account (this part is an assumption, yet to be tested).
 
 ## Roadblock to putting together a 3rd party library
 What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token (possibly related to the original developer), and encrypt the password with it.
 
-One method to solve this is we can try to reverse engineer Google's FCM library, figure out if it's possible to generate legit FCM tokens (since FCM is a client-side service), and then check if authentication would work if signed with that token.
+One method to solve this is I can try to reverse engineer Google's FCM library, figure out if it's possible to generate legit FCM tokens (since FCM is a client-side service), and then check if authentication would work if signed with that token.
 
-Until then listing classes, listing attendance, and scanning QR codes is essentially unusable. It'll probably stay that way since I'm not very interested in reverse engineering Google's FCM SDK, especially since I'm graduating and I won't be able to use the result myself soon.
+Until then listing classes, listing attendance, and scanning QR codes is essentially unusable. 
+
+It'll probably stay that way since I'm not very interested in reverse engineering Google's FCM SDK, especially since I'm graduating and won't be able to use the result myself.
 
 # Other Methods
 Apart from cracking the application open, I've actually used 
 
 # Conclusion
+All in all, it's an interesting experience reverse engineering a react native application.
