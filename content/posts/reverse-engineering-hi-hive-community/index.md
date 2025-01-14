@@ -121,7 +121,7 @@ I suspect what happens here is that there was a requirement to not send password
 
 The token is then sent alongside the password, which I assume is used to decrypt it, and used to authenticate that the password was encrypted with a token related with the developer.
 
-## Roadblock to putting together a 3rd party library
+## Roadblock to putting together a library
 This puts a big roadblock on our goal. What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token.
 
 One method to solve this is to reverse engineer Google's FCM library, then figure out if it's possible to generate legit FCM tokens, and then check if authentication would work with that generated token. 
