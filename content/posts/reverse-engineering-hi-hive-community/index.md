@@ -4,7 +4,7 @@ date: 2024-09-09
 tags: ['react-native', 'android', 'javascript', 'reverse-engineering']
 ---
 
-During COVID-19, my university debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
+During COVID-19, my university ([UTAR](https://utar.edu.my/)) debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
 
 After using the application for a few years, I noticed that it was too bloated with unnecessary features, it's not very responsive, and important items are buried in unending levels of menus.
 
@@ -142,4 +142,4 @@ This was achieved by:
 At the time, I was able to actually login using the tokens and encrypted password intercepted here which returned a session token, but I wasn't able to capitalize on it due to the same problems stated before.
 
 # Conclusion
-All in all, although I did not go all the way, it was an interesting experience reverse engineering a React Native application from my university and figure out how it works.
+All in all, although I did not go all the way, it was an interesting experience reverse engineering a React Native application from my university and figure out it's inner workings.
