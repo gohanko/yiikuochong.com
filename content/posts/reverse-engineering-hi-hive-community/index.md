@@ -132,12 +132,12 @@ Until then, listing classes, listing attendance, and scanning QR codes is essent
 Apart from inspecting the unobfuscated code, I've used network monitoring to figure out the various endpoints and their needed payload which brought similar results. 
 
 This was achieved by:
-    1. Preparing the application for network monitoring by:
-        - Cracking it open.
-        - Editing the `AndroidManifest.xml` file so that it trust user added SSL Certificates.
-        - Repacking, and installing it on a physical device.
-    2. Preparing the device by installing a third party SSL Certificate from CharlesProxy.
-    3. Monitoring the traffic of the device (and by proxy the application) using [CharlesProxy](https://www.charlesproxy.com/).
+1. Preparing the application for network monitoring by:
+    - Cracking it open.
+    - Editing the `AndroidManifest.xml` file so that it trust user added SSL Certificates.
+    - Repacking, and installing it on a physical device.
+2. Preparing the device by installing a third party SSL Certificate from CharlesProxy.
+3. Monitoring the traffic of the device (and by proxy the application) using [CharlesProxy](https://www.charlesproxy.com/).
 
 At the time, I was able to actually login using the tokens and encrypted password intercepted here which returned a session token, but I wasn't able to capitalize on it due to the same problems stated before.
 
