@@ -8,9 +8,9 @@ I'm pretty into the whole privacy stuff. This means "de-googling" mobile devices
 
 One of the methods to achieve this is replacing the Google Play Store with open source alternatives like F-Droid, or Aurora Store. The one problem here is that with a fragmented ecosystem comes a vary of user experiences.
 
-Thus, I'm building yet-another-open-source-app-store and I found out there's a need to adopt a very decoupled architecture to achieve the goal. The "decoupled architecture" I've chosen is clean architecture.
+Thus, I'm building yet-another-open-source-app-store and I found out there's a need to adopt a very decoupled architecture to achieve the goal. The "decoupled architecture" I've chosen is **clean architecture**.
 
-Here are what I've learnt
+Here are what I've learnt.
 
 # Introduction
 
