@@ -42,7 +42,7 @@ params:
   homeInfoParams:
     Title: "Welcome to my home page!"
     Content: |
-      I'm Yii Kuo Chong / 俞国忠 (call me Brandon), and this is a website where I publish my thoughts and knowledge on web and android development, + some other random tech related topics like reverse engineering.
+      I'm Yii Kuo Chong / 俞國忠 (call me Brandon), and this is a website where I publish my thoughts and knowledge on web and android development, + some other random tech related topics like reverse engineering.
 
   socialIcons:
     - name: github
