@@ -18,7 +18,7 @@ params:
   title: "Welcome to my space!"
   description: "thoughts on web development, cybersecurity and life"
   keywords: ['reverse engineering', 'android development', 'jetpack compose', 'react', 'web development', 'software development', 'linux']
-  author: Yii Kuo Chong / 俞国忠
+  author: Yii Kuo Chong / 俞國忠
   DateFormat: "January 2, 2006"
   defaultTheme: auto
 
