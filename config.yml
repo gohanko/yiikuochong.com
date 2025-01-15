@@ -1,6 +1,6 @@
 baseURL: 'https://yiikuochong.com'
 languageCode: 'en-us'
-title: "Yii Kuo Chong"
+title: "Welcome to my space!"
 theme: 'PaperMod'
 
 googleAnalytics: G-J2N6RFYFZH
@@ -15,21 +15,21 @@ minify:
 
 params:
   env: production
-  title: "Yii Kuo Chong Blog"
+  title: "Welcome to my space!"
   description: "thoughts on web development, cybersecurity and life"
-  keywords: ['web development', 'cybersecurity', 'software development', 'linux']
-  author: Yii Kuo Chong
+  keywords: ['reverse engineering', 'android development', 'jetpack compose', 'react', 'web development', 'software development', 'linux']
+  author: 俞国忠 / Yii Kuo Chong
   DateFormat: "January 2, 2006"
   defaultTheme: auto
 
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   disableSpecial1stPost: false
-  disableScrollToTop: true
-  comments: false
+  disableScrollToTop: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -40,13 +40,11 @@ params:
     disableFingerprinting: true
 
   homeInfoParams:
-    Title: "[~]$ whoami"
+    Title: "Welcome to my home page!"
     Content: >
-      A Fullstack Web Developer with an interest in Rust, *nix based Systems, Cyber-Security, and Reverse Engineering; loves FOSS and programming [Read more](/about)
+      I'm Yii Kuo Chong (you can call me Brandon), and this is a website where I publish my thoughts and knowledge on web and android development, as well as some other random tech related topics like reverse engineering.
 
-      - [RSS Feed](/index.xml) - Subscribe to this blog using RSS aggregators.
-
-      - Reach out to me at byu1628[at]proton[dot]me (or any of the channels listed) if you have any questions/suggestions! 
+      Reach out to me at byu1628[at]proton[dot]me (or any of the channels listed) if you have any questions/suggestions! 
 
   socialIcons:
     - name: github
