@@ -13,8 +13,9 @@
       <link>https://yiikuochong.com/posts/clean-code-architecture-with-jetpack-compose/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://yiikuochong.com/posts/clean-code-architecture-with-jetpack-compose/</guid>
-      <description>I&amp;rsquo;m pretty into the whole privacy stuff. This means &amp;ldquo;de-googling&amp;rdquo; mobile devices and removing any proprietary services from the core function of the operating system if feasible. One of the methods to achieve this is replacing the Google Play Store with open source alternatives like F-Droid, or Aurora Store.
-The one problem here is that with 2 different app stores also comes 2 different user experiences. Often times, things like auto-update and auto-installation is unavailable depending on how the open source stores are installed.</description>
+      <description>I&amp;rsquo;m pretty into the whole privacy stuff. This means &amp;ldquo;de-googling&amp;rdquo; mobile devices and removing any proprietary services from the core function of the operating system if feasible.
+One of the methods to achieve this is replacing the Google Play Store with open source alternatives like F-Droid, or Aurora Store. The one problem here is that with a fragmented ecosystem comes a vary of user experiences.
+Thus, I&amp;rsquo;m building yet-another-open-source-app-store and I found out there&amp;rsquo;s a need to adopt a very decoupled architecture to achieve the goal.</description>
     </item>
   </channel>
 </rss>
