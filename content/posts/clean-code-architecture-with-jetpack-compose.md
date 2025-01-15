@@ -12,6 +12,5 @@ Thus, I'm building yet-another-open-source-app-store and I found out there's a n
 
 Here are what I've learnt.
 
-# Introduction
-
-# Folder Structure
+# What is Clean Architecture?
+Testing!
