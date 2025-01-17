@@ -2,37 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yiikuochong.com/tags/android/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/posts/clean-code-architecture-with-jetpack-compose/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/clean-architecture/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/jetpack-compose/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/kotlin/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/posts/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yiikuochong.com/about/</loc>
+    <lastmod>2024-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yiikuochong.com/tags/android/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yiikuochong.com/tags/hello/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yiikuochong.com/tags/javascript/</loc>
+    <lastmod>2024-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yiikuochong.com/posts/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yiikuochong.com/tags/react-native/</loc>
@@ -44,7 +26,13 @@
     <loc>https://yiikuochong.com/tags/reverse-engineering/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://yiikuochong.com/tags/</loc>
+    <lastmod>2024-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yiikuochong.com/tags/world/</loc>
+    <lastmod>2024-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yiikuochong.com/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yiikuochong.com/archives/</loc>
