@@ -77,11 +77,11 @@ This is a more readable version of the `index.android.bundle` file compared to t
 What this means is that I now have a base from which to reverse engineer the API used by the application.
 
 # Reverse engineering and mapping the API
-After a bit of searching, I found the following parts. It seems to be an object containing all the API domain, and paths.
+After a bit of searching, I found the following parts. It seems to be an object containing the API domain, and all the endpoints.
 
 ![Image of API constants](./images/api_constants.png "Image of API constants")
 
-> NOTE: Through comparing v1.0.2 and v2.3.1, I found out that `API_DOMAIN` is not pointing to `www.silverlakemobility.com` anymore, it is now pointing to `www.hi-hive.com`.
+> NOTE: Through comparing v1.0.2 and v2.3.1, I noticed that `API_DOMAIN` was pointing to `www.silverlakemobility.com` in v1.0.2 but is now pointing to `www.hi-hive.com` in v2.3.1.
 
 To implement the application, I only need to figure out some of the endpoints. 
 
@@ -94,11 +94,11 @@ The API endpoints relevant to us are:
 With these, I can start mapping the needed endpoints and figure out what to pass to it.
 
 ## Cracking the authentication method
-Looking through the rest, I found some snippets that shows how the API is being used. The snippet is the callback function for the "Login" button when it's pressed on the login page.
+Looking through the rest, I found a code snippet that shows how the API is being used. This snippet is a callback function for when the login button is pressed.
 
 ![Image of firebase restriction](./images/firebase_restriction.png "Image of firebase restriction")
 
-It seems to be a bunch of async functions, and essentially what it does is:
+It seems to be a bunch of nested async functions, and what it does is:
 
 1. Loads a Firebase Cloud Messaging (FCM) token from local storage.
 2. Then use the token to encrypt the password using the `convertPBEWithMD5AndDES` function.
@@ -117,12 +117,12 @@ The application then calls the login endpoint with the following JSON payload st
 }
 ```
 
-I suspect what happens here is that there was a requirement to not send passwords over the internet in plain text even when secured by SSL. 
+I suspect what happens here is that there was a requirement to not send passwords over the internet in plain text even when secured by SSL.
 
-The token is then sent alongside the password, which I assume is used to decrypt it, and used to authenticate that the password was encrypted with a token related with the developer.
+The token is also sent alongside the password, which I assume is used to decrypt it, and/or used to verify that the password was encrypted with a valid token, possibly ones related to the developer to prevent a third party client.
 
 ## Roadblock to putting together a library
-This puts a big roadblock on our goal. What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated FCM token.
+This puts a big roadblock on our goal. What effectively happens in the end is that the login method is made a lot harder to reverse engineer since you have to somehow generated the FCM token.
 
 One method to solve this is to reverse engineer the FCM SDK, then figure out if it's possible to generate legit FCM tokens, and then check if authentication would work with that generated token. 
 
@@ -135,11 +135,13 @@ This was achieved by:
 1. Preparing the application for network monitoring by:
     - Cracking it open.
     - Editing the `AndroidManifest.xml` file so that it trust user added SSL Certificates.
-    - Repacking, and installing it on a physical device.
+    - Repacking, and installing it on a device.
 2. Preparing the device by installing a third party SSL Certificate from CharlesProxy.
 3. Monitoring the traffic of the device (and by proxy the application) using [CharlesProxy](https://www.charlesproxy.com/).
 
-At the time, I was able to actually login using the tokens and encrypted password intercepted here which returned a session token, but I wasn't able to capitalize on it due to the same problems stated before.
+I was able to actually login using the tokens and encrypted password intercepted here which returned a session token, but I wasn't able to capitalize on it due to the same problems stated before.
 
 # Conclusion
-All in all, although I did not go all the way, it was an interesting experience reverse engineering a React Native application from my university and figure out its inner workings.
+So in summary, logging in returns a session token that you can use to access the other authenticated endpoints but since we need the token to encrypt the password, it's not feasible to create a third party client unless we also reverse engineer Google's FCM SDK.
+
+All in all, a fun adventure, learnt quite a bit about Android and React Native + reverse engineering android applications.
