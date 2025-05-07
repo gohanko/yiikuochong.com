@@ -20,7 +20,7 @@ params:
   keywords: ['reverse engineering', 'android development', 'jetpack compose', 'react', 'web development', 'software development', 'linux']
   author: Yii Kuo Chong / 俞國忠
   DateFormat: "January 2, 2006"
-  defaultTheme: light
+  defaultTheme: dark
 
   ShowReadingTime: true
   ShowShareButtons: true
