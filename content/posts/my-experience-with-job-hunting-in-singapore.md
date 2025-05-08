@@ -1,6 +1,6 @@
 ---
 title: "My experience with job hunting in Singapore as a Software Engineer"
-draft: false
+draft: true
 date: 2025-03-16
 tags: ['job-hunting', 'software-engineering', 'tech', 'labour-market', 'singapore']
 ---
