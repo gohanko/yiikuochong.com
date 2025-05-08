@@ -2,33 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yiikuochong.com/tags/job-hunting/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/labour-market/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/posts/my-experience-with-job-hunting-in-singapore/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/posts/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/singapore/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/software-engineering/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/tags/tech/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yiikuochong.com/</loc>
-    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yiikuochong.com/about/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,6 +14,9 @@
     <loc>https://yiikuochong.com/tags/javascript/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://yiikuochong.com/posts/</loc>
+    <lastmod>2024-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yiikuochong.com/tags/react-native/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -50,7 +26,13 @@
     <loc>https://yiikuochong.com/tags/reverse-engineering/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://yiikuochong.com/tags/</loc>
+    <lastmod>2024-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yiikuochong.com/tags/world/</loc>
+    <lastmod>2024-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yiikuochong.com/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yiikuochong.com/archives/</loc>
