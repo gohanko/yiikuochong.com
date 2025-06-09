@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Yii Kuo Chong</title>
+    <link>https://yiikuochong.com/tags/tech/</link>
+    <description>Recent content in tech on Yii Kuo Chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yiikuochong.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My experience with job hunting in Singapore as a Software Engineer</title>
+      <link>https://yiikuochong.com/posts/my-experience-with-job-hunting-in-singapore/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://yiikuochong.com/posts/my-experience-with-job-hunting-in-singapore/</guid>
+      <description>It&amp;rsquo;s a dream of a lot of Malaysians to find work in Singapore - mostly due to the 3.5 exchange rate, and I was one of those people.
+So equipped with 3 years of software development experience, and freshly out of university I went hunting for a job in Singapore for about 4 months. Here are my experience.
+TLDR: As of March 2025, the Singaporean tech market is really hard to get into, even for locals.</description>
+    </item>
+  </channel>
+</rss>
