@@ -12,16 +12,19 @@ So equipped with 3 years of software development experience, and freshly out of 
 **TLDR:** As of March 2025, the Singaporean tech market is really hard to get into, even for locals.
 
 # Introduction to Myself
-A bit of context about myself, I was a self taught software engineer who worked for about 3 years in the fintech industry before I decided to take a break from work in form of a university degree. That's only partially true, I also wanted a degree to work overseas. So it was a good opportunity to heal from my burnout and progress my career. I end up graduating with a degree in Information Systems Engineering from Universiti Tunku Abdul Rahman (UTAR) in November 2024. This was when I started looking for a job.
+A bit of context about myself, I was a self taught software engineer who worked for about 3 years in the fintech industry before I decided to take a break from work in form of a university degree. That's only partially true, I also wanted a degree to work overseas. 
+
+So it was a good opportunity to heal from my burnout and progress my career. I end up graduating with a degree in Information Systems Engineering from Universiti Tunku Abdul Rahman (UTAR) in November 2024. This was when I started looking for a job.
 
 # My Job Hunt Plan
-So, the plan was to apply for jobs in Singapore while I was still in Malaysia. I was hoping to get a job offer before I moved there. Well, I can't exactly just move there without somekind of Visa or permit isn't it? And I don't exactly want to move to Johor and physically go job hunting in Singapore.
+The plan was to apply for jobs in Singapore while I was still in Malaysia. I was hoping to get a job offer before I moved there. 
+
+Well, I can't exactly just move there without somekind of Visa or permit isn't it? And I don't exactly want to move to Johor and physically go job hunting in Singapore.
 
 ## Target Market
-My main target was to get a job in Singapore, but I also wanted to keep my options open. So I decided to apply for jobs in Malaysia as well. I also applied to Findland, Japan, New Zealand, and Australia, mostly out of curiousity. This serves as a really good way to compare the job markets in these countries. It's an unintentional A/B test of sorts.
+My main target was to get a job in Singapore, but I also wanted to keep my options open. So I decided to apply for jobs in Malaysia as well. I also applied to Finland, Japan, New Zealand, and Australia, mostly out of curiousity. 
 
-## Job Portals
-There are many job portals on the net, but the most popular portals in these countries were JobStreet/Seek, and LinkedIn. Thus, the majority of the applications were done through these platforms.
+This serves as a really good way to compare the job markets in these countries. It's an unintentional A/B test of sorts.
 
 # The Job Hunt Experience
 Over a period of 4 months (starting November 2024), I applied to 292 jobs in total, with 170 of them in Singapore, 78 in Malaysia, 26 in New Zealand, 3 in Japan, 2 in Finland, and 2 in Australia. The other 11 were for remote global roles.
