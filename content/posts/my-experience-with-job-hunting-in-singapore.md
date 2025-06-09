@@ -23,15 +23,17 @@ Well, I can't exactly just move there without an employment permit, and I don't 
 
 So I continued with the best plan of action.
 
-# Target Market
+## Target Market
 As per the title, I am targetting jobs in Singapore but I also wanted to keep my options open. So I decided to apply for jobs in Malaysia, Finland, Japan, New Zealand, and Australia, though everything except for Singapore and Malaysia is more due to curiousity than any actual serious-ness.
 
 This serves as a really good way to compare the job markets in these countries. It also became an unintentional A/B test of sorts.
 
-# Target Portals
+## Target Portals
 In Malaysia, we tend to use [LinkedIn](https://www.linkedin.com/), and [JobStreet](https://my.jobstreet.com/). This would be the same with Singapore, as well as New Zealand, and Australia. For Japan, I used a site called [JapanDev](https://japan-dev.com/japan-jobs-relocation) which is catered specifically for foreigners, and for Finland I used [GlassDoor](https://www.glassdoor.com/Job/finland-software-engineer-jobs-SRCH_IL.0,7_IN79_KO8,25.htm).
 
-# Data Summary
+# The Hunt
+
+## Data Summary
 Over a period of 4 months (starting November 2024), I applied to 292 jobs in total, with:
 
 - 170 of them in Singapore
@@ -43,9 +45,9 @@ Over a period of 4 months (starting November 2024), I applied to 292 jobs in tot
 
 The other 11 were for remote global roles. All of these were tracked in an Excel sheet.
 
-# The Hunting Experience
+## Experience
 
-## November & December 2024
+### November & December 2024
 The first month (November 2024) was a bit of a shock. Back when I was working in 2020, I was getting responses and interviews within a week or two of applying. But this time, I was getting only around 15 responses for the 58 applications I sent out.
 
 Out of the 15 responses, I got 3 interviews. One company interviewed me but suddenly stop hiring, another was an agency specializing in gambling products, and the last company, I finished all 4 rounds of interviews for a Senior Frontend Engineer role, but they said that my last payslips were too old, and they cannot justify the salary, which essentially means I can get the role but at a junior's salary (I declined).
@@ -56,7 +58,7 @@ I mentioned the situation to a few friends, and they told me that it's possibly 
 
 I spent December 2024w refreshing my resume, and LinkedIn profile.
 
-## January 2025
+### January 2025
 January came, and I started applying again. This time I applied to 58 jobs with majority of them in Singapore, and some in Malaysia, as well as a handful in New Zealand.
 
 On the Singapore side, I got 2 responses, 1 from a recruiting firm, and another with a construction company. The role from the recruiting firm was not a good fit as they required a fluent Mandarin speaker, but I got a proper interview with the construction company. In the end, I wasn't selected.
@@ -67,14 +69,14 @@ Surprisingly, I was able to get 1 responses from New Zealand with a company call
 
 This month is pretty much the same as the month before, except with a variety of companies in different countries. It is what it is, we need to just keep going. The imposter syndrome did got stronger though.
 
-## February 2025
+### February 2025
 During this month, I really ramped up my job applications. This month alone, I applied to 180 jobs. Majority of my applications were ghosted, only 18 companies responded, and majority of them were automated rejection responses.
 
 Somehow this felt worse. It like applying to a black hole that sucks up all the matter in the universe without giving anything back. I did managed to get 2 interviews.
 
 Tons of rejection and ghosting felt bad. I decided to release my frustration and also increase my luck by writing [a LinkedIn post](https://www.linkedin.com/posts/gohanko_ive-been-applying-to-jobs-in-singapore-and-activity-7293873628108963840-A5cj?utm_source=share) about my job search. That post ended up getting 40k impressions. Which was really really surprising, I'm guessing that it was relatable. The SWE market around the world is really bad at the time.
 
-## March 2025
+### March 2025
 In March, I continued applying but only to 8 companies because I was a bit burnt out from the doing take home tests, and tons of interviews with recruiters (not only companies but freelance recruiters).
 
 I also decided to focus on the interviews I had lined up. Very interestingly, my attempt at increasing luck worked. People from 2 other companies saw my post and reached out to me. Both were trusted team members of the companies who referred me to their managers, and I was able to get better quality interviews due to that.
@@ -83,19 +85,19 @@ From the pool of 4 interviews, I managed to get 2 offers. One was from the peopl
 
 I decided to accept one of the offers, and now I'm employed! 🥳 It's a remote role as a web developer for a digital agency in Singapore. The other offer was with a Singaporean cybersecurity firm with an office in KL. I was really tempted to take the offer but I decided to go with the remote role.
 
-# Analysis and Dissection
+## Thoughts
 This job search took around 5 months, if I only count the times I was actively searching it would be around 3 months (November, January, February) from start to finish. Which is a shockingly long time.
 
-## Labor Markets Conditions (as of March 2025)
+# Labor Markets Conditions (as of March 2025)
 During the job search, I also did some research into the labor markets in Singapore, and New Zealand. What I've found is not hopeful.
 
-### Singapore
+## Singapore
 
 
-### New Zealand
+## New Zealand
 
 
-## Ghosting and Reply Rates
+# Ghosting and Reply Rates
 Out of the 170 Singaporean companies that I've applied to, only 3 replied. That's a 0.0176% reply rate. Compared to 19 out of 78 Malaysian companies, which is a 24% reply rate. 
 
 The Australian and New Zealand companies do well in this department since every one of my applications has a response, sometimes automated, a lot of times a human replied (as far as I can tell).
