@@ -42,6 +42,9 @@ In Malaysia, we tend to use [LinkedIn](https://www.linkedin.com/), and [JobStree
 # The Hunt
 
 ## Data Summary
+
+![Image of Sankeymatic Chart of Job Search Result](./images/sankeymatic_chart.png "Image of Sankeymatic Chart of Job Search Result")
+
 Over a period of 4 months (starting November 2024), I applied to 292 jobs in total, with:
 
 - 170 of them in Singapore
