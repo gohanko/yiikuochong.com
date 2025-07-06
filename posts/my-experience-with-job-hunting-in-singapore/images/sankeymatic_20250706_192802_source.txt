@@ -1,0 +1,96 @@
+// SankeyMATIC diagram inputs - Saved: 7/6/2025, 7:28:02 PM
+// https://sankeymatic.com/build/
+
+// === Nodes and Flows ===
+
+// Sample Job Search diagram:
+
+Applications [170] Singapore
+Applications [78] Malaysia
+Applications [26] New Zealand
+Applications [3] Japan
+Applications [2] Finland
+Applications [2] Australia
+Applications [11] Remote
+
+Singapore [6] Responded
+Singapore [164] Ghosted
+
+Malaysia [16] Responded
+Malaysia [60] Ghosted
+
+New Zealand [18] Responded
+New Zealand [0] Ghosted
+
+Japan [3] Responded
+Japan [0] Ghosted
+
+Finland [0] Responded
+Finland [2] Ghosted
+
+Australia [0] Responded
+Australia [2] Ghosted
+
+Remote [4] Responded
+Remote [6] Ghosted
+
+Responded [12] Interview
+Responded [17] Rejected
+Responded [18] Ghosted
+
+Interview [2] Offer
+Interview [10] Rejected
+
+// === Settings ===
+
+size w 1000
+  h 1000
+margin l 12
+  r 12
+  t 18
+  b 20
+bg color #ffffff
+  transparent N
+node w 25
+  h 36
+  spacing 49
+  border 0
+  theme b
+  color #888888
+  opacity 1
+flow curvature 0.5
+  inheritfrom target
+  color #999999
+  opacity 0.45
+layout order automatic
+  justifyorigins N
+  justifyends N
+  reversegraph N
+  attachincompletesto nearest
+labels color #000000
+  hide N
+  highlight 0.55
+  fontface sans-serif
+  linespacing 0.2
+  relativesize 115
+  magnify 95
+labelname appears Y
+  size 25
+  weight 400
+labelvalue appears Y
+  fullprecision Y
+  position above
+  weight 400
+labelposition autoalign 1
+  scheme auto
+  first before
+  breakpoint 6
+value format ',.'
+  prefix ''
+  suffix ''
+themeoffset a 6
+  b 9
+  c 0
+  d 0
+meta mentionsankeymatic Y
+  listimbalances Y
