@@ -100,56 +100,58 @@ This job search took around 5 months from start to finish. If I only count the t
 Well, it's not really post mortem, but a summary of the cause and effects of what I've found.
 
 ## Job Markets Conditions (as of March 2025)
-I did some research into the job markets in Singapore, and New Zealand during the job search. What I've found is not hopeful.
+I did some research into the job markets in New Zealand, and Singapore during the job search. What I've found is not hopeful.
 
 ### New Zealand
 In New Zealand, their IT market is quite small with a lot of New Zealanders moving to Australia for higher pay and better opportunity. This should indicate that New Zealand would be somewhat open to new talents.
 
-However, the opposite is true. New Zealand's IT industry is affected by global events as with every IT industry around the world. In addition, at the time of my job hunt, the New Zealand government layed off a bunch of IT workers who are now in the market competing for diminishing roles.
+However, the opposite is true. New Zealand's IT industry is affected by global events as with every IT industry around the world. In addition, at the time of my job hunt, the New Zealand government layed off a bunch of IT workers (according to a few recruiters) who are now in the market competing for diminishing roles.
 
-This said, the reply rate for New Zealand was way higher than Singapore. Most of which are automated with some human response sprinkled in. My conclusion is that they have a culture of replying back even if it is an automated reply.
+That said, the reply rate for New Zealand was way higher than Singapore. Most of which are automated with some human response sprinkled in. I think they have a culture of replying back even if it is an automated reply.
 
-So the New Zealand IT market is competitive but you will rarely get ghosted.
+So in conclusion, the New Zealand IT market is competitive but you will rarely get ghosted.
 
 ### Singapore
-In Singapore, what I've noticed is that they follow the global trend more closely and are more affected by global events. The only people that's getting hired are highly skilled and/or experienced folks, or people willing to work for very low salary (by Singaporean standards). This is discounting people with connections. 
+What I've noticed in Singapore is that they follow the global trend more closely and are more affected by it. The only people that's getting hired are highly skilled and experienced folks, or people willing to work for very low salary (by Singaporean standards). This is discounting people with connections. 
 
-Like in Silicon Valley, junior roles are getting hit the hardest, as companies can pick from a larger pool of already talented talents. Therefore, IT graduates are lamenting not being able to start their careers. Singapore relies heavily on foreign talents as well, this means their graduates are competing with foreign graduates for the same role.
+Like in Silicon Valley, junior roles are getting hit the hardest, as companies can pick from a larger pool of already talented people. Therefore, IT graduates are lamenting not being able to start their careers. Singapore relies heavily on foreign talents as well, this means their graduates are competing with foreign graduates for the same role.
 
-This extends to already experienced software developers. Some of the people I know got laid off and are not able to find jobs after 4/5 months of searching because they have to compete with a bigger pool of talent, and also foreign talents who are more willing to lower their compensation expectations. Not to mention that Singaporean companies are increasingly outsourcing their job to neighbouring countries, some are hiring remote workers, others are opening offices in Malaysia because it's more bang for the buck.
+This extends to already experienced software developers. Some people I know got laid off and are not able to find jobs after 4/5 months of searching because they have to compete with a bigger pool of talent, and also foreign talents who are more willing to lower their compensation expectations. 
 
-So I conclude that the Singaporean IT Labour Market is extremely competitive, unless you can beat people in talent, or price, it's very hard to find a job there. These are what I've concluded after talking to people, looking at social media, and following the news.
+Not to mention that Singaporean companies are increasingly outsourcing their job to neighbouring countries, some are hiring remote workers, others are opening offices in Malaysia.
+
+So I conclude that the Singaporean IT Labour Market is extremely competitive, unless you can beat people in talent, or price, it's very hard to find a job there.
 
 ## Causes and Effects
-I keep talking about "global trends" and "global events" but what are they? I've kept it vague so I don't have to repeat myself twice in the post. Essentially they're common denominators that are causing a slump in IT job markets around the world. If you've kept up, you probably have some ideas of what it is.
+I keep talking about "global trends" and "global events" but what are they? Essentially they're common denominators that are causing a slump in IT job markets around the world. If you've kept up, you probably have some ideas of what it is.
 
 ### A Brief History
-A bunch of new technologies were introduced around the 2010s and this triggered a gold rush for companies and startups trying to build the next big app. This created a demand for developers when there is not enough labor which drove the salaries up. As the years go by, driven by higher salaries and better opportunities, more and more people enter the IT labor market up in the 2020s.
+A bunch of new technologies were introduced around the 2010s and this triggered a gold rush for companies and startups trying to build the next big app. This created a demand for developers during a time where there is not enough which drove up salaries. As the years go by, driven by higher salaries and better opportunities, more and more people enter the IT labor market up into the 2020s.
 
 ### Over-Hiring (and Over-Supply of Talents)
-In the 2020s, COVID-19 hit the entire world, and people start using online services more, and this drove companies to try to increase their market share as much as possible.
+In December 2019, COVID-19 hit the entire world, and people start using online services more, lockdowns were mandated, and this drove companies to try to increase their market share as much as possible.
 
-When most lockdowns were rescinded in the end of 2022s, the amount of people online slowly reduces. Suddenly these companies have extra talents that they do not need. Therefore layoffs become more common in the years leading up to 2025.
+When most lockdowns were rescinded in the end of 2022, the amount of people online reduces. Suddenly these companies have extra talents that they do not need. Therefore layoffs become more common in the years leading up to 2025.
 
 Simply, companies do not need the talent anymore, and do not earn as much as they were during COVID so they have no need to keep people. It's an **over-supply of talents**.
 
 ### Macro-Economics, and Geo-Politics
-In the past, "zero interest-rate period" policies drove a lot of innovations in the tech industry globally. It makes it easier for companies to borrow and burn money to grow a company. It used to be that companies would find anyone with an interest in IT and hire them. If they hire 10 people, and 3 become really good then it's considered money well spent. However, that ended in 2022.
+For around 15 years, "zero interest-rate period" policies drove a lot of innovations in the tech industry globally. It makes it easier for companies to borrow money to grow a company. It used to be that companies would find anyone with an interest in IT and hire them. If they hire 10 people, and 3 become really good then it's considered money well spent. However, that ended in 2022.
 
-That combined with the threat of inflation and recession around the world, companies are more cautious in spending their money. They are more picky with who they hire. They're more focused in building learner and efficient teams. And more importantly the paradigm shifted from growing at all cost, to being profitable.
+That combined with the threat of inflation and recession around the world (due to geo-politics), companies are more cautious in spending their money. They are more picky with who they hire. They're more focused in building leaner and more efficient teams. And more importantly the paradigm shifted from growing at all cost, to being profitable.
 
-This pretty much resulted in a **smaller job market**, companies do not just hire anyone that shows a tiny sliver of talents anymore.
+This pretty much resulted in a **smaller job market**. Companies do not just hire anyone that shows a tiny sliver of talents anymore.
 
 ### Introduction of AI
 At the end of 2022, ChatGPT was introduced and triggered a gold rush into the AI industry. Every company in the world is looking to use AI to improve their processes and efficiency. So rather than hiring a new person, companies would look into how to improve efficiency with AI first. 
 
 # Conclusion
-I've found a job, but what I learnt is that the software engineering job market in 2025 is tough. Over-supply of talent, and smaller amount of jobs drove up the competition everywhere around the world. Not a good place to be entering the industry right now.
+I've found a job, but what I learnt is that the software engineering job market in 2025 is tough. Over-supply of talent, and smaller amount of jobs drove up the competition everywhere around the world. Not a good time to be entering the industry right now.
 
 However, I'm optimistic for the future. These events simply means a shift in how we progress our careers, no more changing jobs every year and more crafting our skills. On AI, I think it have it's place but we're still figuring out the best use case for them right now.
 
 ![Image of Gartner Hype Cycle 2024](./images/august_2024_ethc.png "Image of Gartner Hype Cycle 2024")
 
-The current expectations for AI is one of "It'll replace all jobs and wipe us out!", but I think we're at the peak hype stage, ala how cryptocurrency was hyped up to make centralized banking obsolete. It'll be more of a slow burn, maybe we'll get to that stage but it won't be in the next decade at least. Things will happen slowly, year by year.
+The current expectations for AI is one of "It'll replace all jobs and wipe us out!", but I think we're at the peak hype stage, ala how cryptocurrency was hyped up that it'll make centralized banking obsolete. It'll be more of a slow burn, maybe we'll get to that stage but it won't be in the next decade at least. Things will happen slowly, year by year.
 
-So eventually we'll get to a point where we figure out which AI is good at which jobs, and companies would start hiring for jobs that AI can't do properly yet.
+So eventually we'll get to a point where we figure out which AI is good at which jobs, and companies would be less reserved when hiring for jobs that AI can't do properly yet.
