@@ -151,3 +151,5 @@ However, I'm optimistic for the future. These events simply means a shift in how
 ![Image of Gartner Hype Cycle 2024](./images/august_2024_ethc.png "Image of Gartner Hype Cycle 2024")
 
 The current expectations for AI is one of "It'll replace all jobs and wipe us out!", but I think we're at the peak hype stage, ala how cryptocurrency was hyped up to make centralized banking obsolete. It'll be more of a slow burn, maybe we'll get to that stage but it won't be in the next decade at least. Things will happen slowly, year by year.
+
+So eventually we'll get to a point where we figure out which AI is good at which jobs, and companies would start hiring for jobs that AI can't do properly yet.
