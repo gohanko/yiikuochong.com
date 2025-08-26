@@ -12,7 +12,7 @@ So equipped with 3 years of software development experience, and freshly out of 
 **TLDR:** As of March 2025, the Singaporean tech market is really hard to get into, even for locals.
 
 # Introducing Myself
-A bit of context about myself, I am a self taught software engineer who worked for about 3 years in the fintech industry before I decided to take a break from work in form of a university degree. Well,that's only partially true; I also wanted a degree to work overseas. 
+A bit of context about myself, I am a self taught software engineer who worked for about 3 years in Malaysian Fin-Tech before I decided to take a break from work in form of a university degree. Well, that's only partially true; I also wanted a degree to work overseas. 
 
 So it was a good opportunity to heal from my burnout and progress my career. I end up graduating with a degree in Information Systems Engineering from Universiti Tunku Abdul Rahman (UTAR) on November 2024. This was when I started looking for a job.
 
@@ -21,7 +21,7 @@ The best plan of action for my current situation was to apply for jobs in Singap
 
 I can't exactly just move there without an employment permit, and neither do I want to go job hunting in Singapore daily. It's going to eat capital that I do not have.
 
-So I continued with the best plan of action.
+So I continued with applying online.
 
 ## Target Market
 As per the title, I am targeting jobs in Singapore but I also wanted to keep my options open, so I decided to apply for jobs in a few other countries which are:
@@ -32,7 +32,7 @@ As per the title, I am targeting jobs in Singapore but I also wanted to keep my 
 - New Zealand
 - Australia
 
-Though everything except for Singapore and Malaysia is more due to curiousity than any actual serious-ness.
+That said, everything except for Singapore and Malaysia are more due to curiousity than any actual serious-ness.
 
 This serves as a really good way to compare the job markets in these countries. It also became an unintentional A/B test of sorts.
 
@@ -53,14 +53,14 @@ Over a period of 4 months (starting November 2024), I applied to 292 jobs in tot
 - 2 in Australia
 
 
-The other 11 were for remote global roles. All of these were tracked in Google Sheet.
+The other 11 were for remote global roles. All of these were tracked on Google Sheet.
 
 ![Image of Sankeymatic Chart of Job Search Result](./images/sankeymatic_chart.png "Image of Sankeymatic Chart of Job Search Result")
 
 ## Experience
 
 ### November & December 2024
-The first month (November 2024) was a bit of a shock. Back when I was working in 2020, I was getting responses and interviews within a week or two of applying. But this time, I was getting only around 15 responses for the 58 applications I sent out.
+The first month was a bit of a shock. Back in 2020, I was getting responses and interviews within a week or two of applying. But this time around, I was getting only around 15 responses for the 58 applications I sent out.
 
 Out of the 15 responses, I got 3 interviews. One company interviewed me but suddenly stop hiring, another was an agency specializing in gambling products, and for the last company, I finished all 4 rounds of interviews for a Senior Frontend Engineer role, but they said that my last payslips were too old, and they cannot justify the salary, which essentially means I can get the role but at a junior's salary (I declined).
 
@@ -75,9 +75,9 @@ January came, and I started applying again. This time I applied to 58 jobs with 
 
 On the Singapore side, I got 2 responses, 1 from a recruiting firm, and another with a construction company. The role from the recruiting firm was not a good fit as they required a fluent Mandarin speaker, but I got a proper interview with the construction company. I was not selected.
 
-On the Malaysia side, I got 1 response from AEON Bank. I went through their interviews, and completed their coding test, but  they decided that I was not a good fit for the role.
+On the Malaysia side, I got 1 response from AEON Bank. I went through their interviews, and completed their coding test, but  they decided that I was not senior enough for the role.
 
-Surprisingly, a company in New Zealand called [SiteHost](https://sitehost.nz/) responded. I did their coding test, and got an interview with them, but they decided to not select me for the next round because they could hire someone local. Apparently their job market is down because the NZ government just laid off entire departments.
+Surprisingly, a company in New Zealand called [SiteHost](https://sitehost.nz/) responded. I did their coding test, and got an interview with them, but they decided to skip me as they could hire someone local. Apparently their job market is down because the New Zealand government just laid off entire departments.
 
 This month is pretty much the same as the month before, except with a variety of companies in different countries. It is what it is, we need to just keep going. The imposter syndrome did got stronger though.
 
@@ -89,13 +89,15 @@ Somehow this felt worse. It like applying to a black hole that sucks up all the 
 Tons of rejection and ghosting felt bad. I decided to release my frustration and exercise my brain by writing [a LinkedIn post](https://www.linkedin.com/posts/gohanko_ive-been-applying-to-jobs-in-singapore-and-activity-7293873628108963840-A5cj?utm_source=share) about my job search. That post ended up getting 40k impressions. Which was really really surprising. I'm guessing that it was relatable. The SWE market around the world is really bad at the time.
 
 ### March 2025
-In March, I continued applying but only to 8 companies because I was a bit burnt out from the doing take home tests, and tons of interviews with recruiters (not only companies but freelance recruiters).
+In March, I continued applying but only to 8 companies. I was a bit burnt out from the doing take home tests, and lots of interviews.
 
-I also decided to focus on the interviews I had lined up. Very interestingly, a couple of people from a couple of companies saw my post and reached out to me. Both were trusted team members of the companies who referred me to their managers, and I was able to get better quality interviews due to that.
+I decided to focus on the interviews I had lined up. Very interestingly, a couple of people from different companies saw my post and reached out to me. Both were trusted team members of the companies who referred me to their managers, and I was able to get better quality interviews due to that.
 
 From the pool of 4 interviews, I managed to get 2 offers. One was from the people who saw my post, and the other was from a company I applied to in February. The other two ended up ghosting me, and decided I wasn't a good fit, respectively.
 
-I decided to accept one of the offers, and now I'm employed! 🥳 It's a remote role as a web developer for a digital agency in Singapore. The other offer was with a Singaporean cybersecurity firm with an office in KL. Both had really good benefits and compensation. I was really tempted to take the offer but I decided to go with the remote role.
+I decided to accept one of the offers, and now I'm employed! 🥳 It's a remote role as a web developer for a digital agency in Singapore. The other offer was with a Singaporean cybersecurity firm with an office in KL. 
+
+Both had really good benefits and compensation. I was really tempted to take the KL offer but I decided to go with the remote role.
 
 ## Thoughts
 This job search took around 5 months from start to finish. If I only count the times I was actively searching it would be around 3 months (November, January, February). Which is a shockingly long time.
@@ -116,26 +118,26 @@ That said, the reply rate for New Zealand was way higher than Singapore. Most of
 So in conclusion, the New Zealand IT market is competitive but you will rarely get ghosted.
 
 ### Singapore
-What I've noticed in Singapore is that they follow the global trend more closely and are more affected by it. The only people that's getting hired are highly skilled and experienced folks, or people willing to work for very low salary (by Singaporean standards). This is discounting people with connections. 
+In Singapore they seem to follow the global trend more closely and are more affected by it. The only people that's getting hired are highly skilled and experienced folks, or people willing to work for very low salary (by Singaporean standards). This is discounting people with connections. 
 
 Like in Silicon Valley, junior roles are getting hit the hardest, as companies can pick from a larger pool of already talented people. Therefore, IT graduates are lamenting not being able to start their careers. Singapore relies heavily on foreign talents as well, this means their graduates are competing with foreign graduates for the same role.
 
-This extends to already experienced software developers. Some people I know got laid off and are not able to find jobs after 4/5 months of searching because they have to compete with a bigger pool of talent, and also foreign talents who are more willing to lower their compensation expectations. 
+This extends to already experienced software developers. Some people I know got laid off and are not able to find jobs after 4/5 months of searching due to reasons above. 
 
-Not to mention that Singaporean companies are increasingly outsourcing their job to neighbouring countries, some are hiring remote workers, others are opening offices in Malaysia.
+Not to mention that Singaporean companies are increasingly outsourcing their job to neighbouring countries, some are hiring remote workers (like me), others are opening offices in Malaysia.
 
-So I conclude that the Singaporean IT Labour Market is extremely competitive, unless you can beat people in talent, or price, it's very hard to find a job there.
+So I conclude that the Singaporean IT Labour Market is extremely competitive, unless you can beat people in talent, or price, it's very hard to find a job there as of time of writing.
 
 ## Causes and Effects
 I keep talking about "global trends" and "global events" but what are they? Essentially they're common denominators that are causing a slump in IT job markets around the world. If you've kept up, you probably have some ideas of what it is.
 
-### A Brief History
+### Brief Background
 A bunch of new technologies were introduced around the 2010s and this triggered a gold rush for companies and startups trying to build the next big app. This created a demand for developers during a time where there is not enough which drove up salaries. As the years go by, driven by higher salaries and better opportunities, more and more people enter the IT labor market up into the 2020s.
 
 ### Over-Hiring (and Over-Supply of Talents)
 In December 2019, COVID-19 hit the entire world, and people start using online services more, lockdowns were mandated, and this drove companies to try to increase their market share as much as possible.
 
-When most lockdowns were rescinded in the end of 2022, the amount of people online reduces. Suddenly these companies have extra talents that they do not need. Therefore layoffs become more common in the years leading up to 2025.
+When most lockdowns were rescinded at the end of 2022, the amount of people online also reduces. Suddenly these companies have extra talents that they do not need. Therefore layoffs become more common in the years leading up to 2025.
 
 Simply, companies do not need the talent anymore, and do not earn as much as they were during COVID so they have no need to keep people. It's an **over-supply of talents**.
 
@@ -147,15 +149,17 @@ That combined with the threat of inflation and recession around the world (due t
 This pretty much resulted in a **smaller job market**. Companies do not just hire anyone that shows a tiny sliver of talents anymore.
 
 ### Introduction of AI
-At the end of 2022, ChatGPT was introduced and triggered a gold rush into the AI industry. Every company in the world is looking to use AI to improve their processes and efficiency. So rather than hiring a new person, companies would look into how to improve efficiency with AI first. 
+At the end of 2022, ChatGPT was introduced and triggered a gold rush into the AI industry. Every company in the world is looking to use AI to improve their processes and efficiency. So rather than hiring a new person, companies would look into how to improve efficiency with AI first.
+
+Whether or not the efficiency actually happens, the trend has an big effect on the job market.
 
 # Conclusion
-I've found a job, but what I learnt is that the software engineering job market in 2025 is tough. Over-supply of talent, and smaller amount of jobs drove up the competition everywhere around the world. Not a good time to be entering the industry right now.
+I've found a job, but the software engineering job market in 2025 is tough. Over-supply of talent, and smaller amount of jobs drove up the competition everywhere around the world. Not a good time to be entering the industry right now.
 
-However, I'm optimistic for the future. These events simply means a shift in how we progress our careers, no more changing jobs every year and more crafting our skills. On AI, I think it have it's place but we're still figuring out the best use case for them right now.
+However, I'm optimistic for the future. These events simply means a shift in how we progress our careers, no more changing jobs every year and more crafting our skills. On AI, I think it has it's place but we're still figuring out the best use case for them right now.
 
 ![Image of Gartner Hype Cycle 2024](./images/august_2024_ethc.png "Image of Gartner Hype Cycle 2024")
 
-The current expectations for AI is one of "It'll replace all jobs and wipe us out!", but I think we're at the peak hype stage, ala how cryptocurrency was hyped up that it'll make centralized banking obsolete. It'll be more of a slow burn, maybe we'll get to that stage but it won't be in the next decade at least. Things will happen slowly, year by year.
+The current expectations for AI is one of "It'll replace all jobs and wipe us out!", but I think we're at the peak hype stage, ala how cryptocurrency was hyped up that it'll make centralized banking obsolete. It'll be more of a slow burn, maybe we'll automate everything in the future but it won't be in the next decade at least. Things will be increasingly automated year by year.
 
-So eventually we'll get to a point where we figure out which AI is good at which jobs, and companies would be less reserved when hiring for jobs that AI can't do properly yet.
+Eventually we'll get to a point where we figure out which AI is good at which jobs, and companies would be less reserved when hiring for jobs that AI can't do properly yet.
